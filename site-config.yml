@@ -1,7 +1,0 @@
----
-hub: "hubverse-org/dashboard-test-hub/"
-title: "Dashboard Test Hub"
-pages:
-  - "about.md"
-  - "data.qmd"
-

@@ -1,0 +1,91 @@
+{
+    "target_variables": [
+        {
+            "value": "weekly incident influenza cases",
+            "text": "Weekly reported influenza cases",
+            "plot_text": "Weekly reported influenza cases"
+        }
+    ],
+    "initial_target_var": "weekly incident influenza cases",
+    "task_ids": {
+        "weekly incident influenza cases": {
+            "location": [
+                {
+                    "value": "SE",
+                    "text": "Sverige"
+                },
+                {
+                    "value": "SE-M",
+                    "text": "Region Sk\u00e5ne"
+                },
+                {
+                    "value": "SE-O",
+                    "text": "V\u00e4stra G\u00f6talandsregionen"
+                }
+            ]
+        }
+    },
+    "initial_task_ids": {
+        "location": "SE"
+    },
+    "intervals": [
+        "0%",
+        "50%",
+        "80%",
+        "95%"
+    ],
+    "initial_interval": "95%",
+    "available_as_ofs": {
+        "weekly incident influenza cases": [
+            "2025-10-05",
+            "2025-10-12",
+            "2025-10-19",
+            "2025-10-26",
+            "2025-11-02",
+            "2025-11-09",
+            "2025-11-16",
+            "2025-11-23",
+            "2025-11-30",
+            "2025-12-07",
+            "2025-12-14",
+            "2025-12-21",
+            "2025-12-28",
+            "2026-01-04",
+            "2026-01-11",
+            "2026-01-18",
+            "2026-01-25",
+            "2026-02-01",
+            "2026-02-08",
+            "2026-02-15",
+            "2026-02-22",
+            "2026-03-01",
+            "2026-03-08",
+            "2026-03-15",
+            "2026-03-22",
+            "2026-03-29",
+            "2026-04-05",
+            "2026-04-12",
+            "2026-04-19",
+            "2026-04-26",
+            "2026-05-03",
+            "2026-05-10",
+            "2026-05-17"
+        ]
+    },
+    "initial_as_of": "2026-05-17",
+    "current_date": "2026-05-17",
+    "models": [
+        "hub-normalma3",
+        "hub-qra"
+    ],
+    "initial_checked_models": [
+        "hub-qra",
+        "hub-normalma3"
+    ],
+    "model_urls": {
+        "hub-normalma3": "https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/model-metadata/hub-normalma3.yml",
+        "hub-qra": "https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/model-metadata/hub-qra.yml"
+    },
+    "disclaimer": "Demonstration med retrospektiva prognoser f\u00f6r s\u00e4songen 2025/26 \u2013 inte realtidsprognoser.",
+    "initial_xaxis_range": null
+}
