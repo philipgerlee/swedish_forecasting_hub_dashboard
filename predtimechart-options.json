@@ -83,8 +83,8 @@
         "hub-normalma3"
     ],
     "model_urls": {
-        "hub-normalma3": "https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/model-metadata/hub-normalma3.yml",
-        "hub-qra": "https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/model-metadata/hub-qra.yml"
+        "hub-qra": "https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/model-metadata/hub-qra.yml",
+        "hub-normalma3": "https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/model-metadata/hub-normalma3.yml"
     },
     "disclaimer": "Demonstration med retrospektiva prognoser f\u00f6r s\u00e4songen 2025/26 \u2013 inte realtidsprognoser.",
     "initial_xaxis_range": null
