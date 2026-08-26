@@ -1,25 +1,26 @@
 ---
-title: "Introduction"
+title: "Nationella prognoshubben för influensa"
 ---
 
+::: {.demo-banner}
+**Demoläge · influensasäsongen 2025/26**
 
-::: {style='display:flex; align-items: center; justify-content: center'}
-
-[View The Latest Forecasts](forecast.html){.btn .btn-primary role="button"}
-
+Här visas retrospektiva prognoser. De är framtagna som om modellerna endast hade haft tillgång till den information som fanns vid respektive prognosdatum.
 :::
 
+## Prognoser som går att jämföra
 
-This Dashboard is build with Quarto. 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hubben samlar prognoser i ett gemensamt format och visar både enskilda modeller och en probabilistisk ensemble. Demonstrationen omfattar Sverige, Region Skåne och Västra Götalandsregionen, med prognoser upp till tre veckor framåt.
 
-Authors can use $\LaTeX$ to write equations and even put in callouts:
-
-:::{.callout-note}
-
-Look at this note!
-
+::: {.home-actions}
+[Visa prognoserna](forecast.html){.btn .btn-primary role="button"}
+[Se utvärderingen](evaluation.html){.btn .btn-outline-primary role="button"}
 :::
 
+## Vad visas i demonstrationen?
 
+- **QRA-ensemble:** en regulariserad probabilistisk ensemble av testmodellerna.
+- **Probabilistisk baseline:** ett treveckors glidande medelvärde med historiskt skattad osäkerhet.
+- **Utfall:** frysta veckovärden från Folkhälsomyndighetens Folkhälsodata.
 
+Hubben är en forskningspilot som drivs av Institutionen för matematiska vetenskaper vid Chalmers tekniska högskola.

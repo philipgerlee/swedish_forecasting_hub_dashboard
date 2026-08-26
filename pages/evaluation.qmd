@@ -1,0 +1,24 @@
+---
+title: "Utvärdering 2025/26"
+---
+
+::: {.demo-banner}
+Resultaten avser retrospektiva prognoser för säsongen 2025/26.
+:::
+
+Den probabilistiska utvärderingen jämför QRA-ensemblen med den probabilistiska baseline-modellen. Lägre **WIS** är bättre. **WIS-färdighet** över noll betyder att QRA förbättrar baseline; ett värde under noll betyder att baseline är bättre.
+
+::: {#evaluation-status .small-note}
+Läser in de senast publicerade utvärderingsresultaten …
+:::
+
+::: {#evaluation-table}
+:::
+
+Täckningsgraderna för 50 %, 80 % och 95 % finns i den fullständiga [resultatfilen på GitHub](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/evaluation-output/2025-2026/probabilistic-comparison-by-location-horizon.csv).
+
+## Tolkning
+
+WIS belönar träffsäkra prognoser men bestraffar samtidigt onödigt breda prognosintervall. Därför behövs ingen separat metrik för intervallbredd. Resultaten från en retrospektiv demosäsong ska ses som en teknisk demonstration, inte som belägg för generell modellprestanda.
+
+<script type="module" src="resources/evaluation.js"></script>
