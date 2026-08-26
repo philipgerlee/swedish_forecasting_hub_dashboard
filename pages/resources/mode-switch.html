@@ -14,11 +14,8 @@ function initializeHubInterface() {
   });
   document.querySelectorAll('a[href$="forecast.html"]').forEach((link) => {
     if (link.closest(".hub-mode-switch")) return;
-    for (const node of link.childNodes) {
-      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Forecasts") {
-        node.textContent = " Prognoser";
-      }
-    }
+    const label = link.querySelector(".menu-text");
+    if (label && label.textContent.trim() === "Forecasts") label.textContent = "Prognoser";
   });
 
   const translations = new Map([
@@ -29,6 +26,7 @@ function initializeHubInterface() {
     ["Select Target Data:", "Välj utfallsdata:"],
     ["Select Models:", "Välj modeller:"],
     ["Shuffle Colours", "Blanda färger"],
+    ["Date", "Datum"],
     ["Note: You can navigate to forecasts from previous weeks with the left and right arrow keys", "Du kan gå mellan tidigare prognosveckor med vänster- och högerpilarna."]
   ]);
 
@@ -45,6 +43,11 @@ function initializeHubInterface() {
         node.textContent = node.textContent.replace("Current (", "Aktuellt (");
       } else if (trimmed.startsWith("As of ")) {
         node.textContent = node.textContent.replace("As of ", "Per ");
+      } else if (trimmed.startsWith("Forecasts of Weekly reported influenza cases")) {
+        node.textContent = trimmed
+          .replace("Forecasts of Weekly reported influenza cases", "Prognoser för veckovis rapporterade influensafall")
+          .replace("  in ", " i ")
+          .replace(" as of ", " per ");
       }
     }
   }
@@ -53,6 +56,14 @@ function initializeHubInterface() {
   const forecastRoot = document.querySelector("#forecastViz_row");
   if (forecastRoot) {
     new MutationObserver(translateForecastControls).observe(forecastRoot, { childList: true, subtree: true });
+    let translationAttempts = 0;
+    const translationTimer = setInterval(() => {
+      translateForecastControls();
+      translationAttempts += 1;
+      if (translationAttempts >= 40 || !forecastRoot.textContent.includes("Outcome:")) {
+        clearInterval(translationTimer);
+      }
+    }, 250);
   }
 }
 
