@@ -1,0 +1,19 @@
+---
+title: "Modeller"
+---
+
+## Probabilistiska modeller
+
+### hub-qra
+
+En regulariserad quantile regression averaging-ensemble. Den skattas separat för plats, prognoshorisont och kvantil. Regulariseringen väljs med tidsordnad expanding-window-validering.
+
+### hub-normalma3
+
+En probabilistisk baseline. Medelvärdet är genomsnittet av de tre senaste observationerna. Osäkerheten beskrivs med en normalfördelning vars standardavvikelse skattas från historiska rolling-origin-fel separat för plats och horisont.
+
+## Enskilda testmodeller
+
+Demonstrationen innehåller enkla modeller som endast använder data publicerade i hubben: senaste värdet, glidande medelvärden, trend-, tillväxt- och säsongsvarianter. De används som komponenter när QRA:n tränas och deras resultat bevaras för den separata punktprognosvyn.
+
+Fullständiga metadata finns i [model-metadata-katalogen](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/model-metadata). Modellernas körbara implementationer och dokumentation finns i [demo-models](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/demo-models).

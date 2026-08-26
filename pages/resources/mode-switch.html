@@ -1,0 +1,24 @@
+<div class="hub-mode-switch" aria-label="Välj visningsläge">
+  <span class="mode-label">Visningsläge</span>
+  <span class="mode-options">
+    <a data-hub-mode="demo" href="forecast.html">Demo 2025/26</a>
+    <a data-hub-mode="current" href="current.html">Aktuell</a>
+  </span>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const current = location.pathname.endsWith("current.html") ? "current" : "demo";
+  document.querySelectorAll("[data-hub-mode]").forEach((link) => {
+    link.classList.toggle("active", link.dataset.hubMode === current);
+    if (link.dataset.hubMode === current) link.setAttribute("aria-current", "page");
+  });
+  document.querySelectorAll('a[href$="forecast.html"]').forEach((link) => {
+    if (link.closest(".hub-mode-switch")) return;
+    for (const node of link.childNodes) {
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "Forecasts") {
+        node.textContent = " Prognoser";
+      }
+    }
+  });
+});
+</script>

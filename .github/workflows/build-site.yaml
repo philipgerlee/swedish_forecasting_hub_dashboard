@@ -1,4 +1,4 @@
-name: "Rebuild Site"
+name: "Rebuild dashboard site"
 on:
   workflow_dispatch:
     inputs:
@@ -9,6 +9,8 @@ on:
         default: true
   push:
     branches: [main]
+  schedule:
+    - cron: "45 18 * * 4"
   pull_request:
     branches: [main]
 

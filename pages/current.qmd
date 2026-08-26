@@ -1,0 +1,13 @@
+---
+title: "Aktuell säsong"
+---
+
+::: {.current-banner}
+**Aktuellt läge**
+
+Inga prospektiva prognoser har publicerats ännu.
+:::
+
+Den löpande datainsamlingen startar före prognossäsongen. När de första deltagarprognoserna har validerats visas de här automatiskt. Tills dess kan du använda [demoläget för 2025/26](forecast.html) för att se hur prognosvyn och utvärderingen fungerar.
+
+Senast publicerad målserie finns i [hubbens datafil](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/target-data/time-series.csv).

@@ -1,15 +1,15 @@
 ---
-title: "About the team"
+title: "Om hubben"
 ---
 
-## Introduction
+Nationella prognoshubben för influensa är en forskningspilot vid Institutionen för matematiska vetenskaper, Chalmers tekniska högskola.
 
-This is our staff
+Syftet är att göra oberoende influensaprognoser jämförbara, utvärdera dem öppet och undersöka om en probabilistisk ensemble ger ett robustare beslutsunderlag än enskilda modeller.
 
-### Dale
+## Datakälla
 
-![Dale is the boss](img/dale.jpeg){alt="A cute, old, brown tabby cat sitting on a hook rug in a hallway. She is staring gently into the camera."}
+Utfallsdata hämtas från Folkhälsomyndighetens Folkhälsodata. I demoläget används den frysta slutversionen för säsongen 2025/26.
 
-### Bubblegum
+## Öppenhet
 
-![Bubblegum is the scientist](img/bubblegum.jpeg){alt="A large, fluffy black cat sitting in a hallway. It is in profile and staring at the camera as if surprised."}
+Format, validering, testmodeller, ensemblekod och utvärderingsresultat finns i [hubbens GitHub-repository](https://github.com/philipgerlee/swedish_forecasting_hub).

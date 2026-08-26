@@ -1,7 +1,23 @@
 ---
-hub: "hubverse-org/dashboard-test-hub/"
-title: "Dashboard Test Hub"
+hub: "philipgerlee/swedish_forecasting_hub"
+title: "Nationella prognoshubben för influensa"
 pages:
-  - "about.md"
-  - "data.qmd"
-
+  - text: "Aktuell säsong"
+    icon: calendar-week
+    href: current.qmd
+  - text: "Utvärdering"
+    icon: table
+    href: evaluation.qmd
+  - text: "Modeller"
+    icon: boxes
+    href: models.qmd
+  - text: "Om hubben"
+    icon: info-circle
+    href: about.md
+resources:
+  - resources/evaluation.js
+html:
+  lang: sv-SE
+  theme: cosmo
+  css: resources/css/custom.css
+  include-after-body: resources/mode-switch.html
