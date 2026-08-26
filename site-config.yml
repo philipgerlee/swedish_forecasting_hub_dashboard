@@ -2,6 +2,9 @@
 hub: "philipgerlee/swedish_forecasting_hub"
 title: "Nationella prognoshubben för influensa"
 pages:
+  - text: "Punktprognoser"
+    icon: graph-up-arrow
+    href: point-forecasts.qmd
   - text: "Aktuell säsong"
     icon: calendar-week
     href: current.qmd
@@ -16,6 +19,7 @@ pages:
     href: about.md
 resources:
   - resources/evaluation.js
+  - resources/point-forecasts.js
 html:
   lang: sv-SE
   theme: cosmo

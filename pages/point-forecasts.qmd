@@ -1,0 +1,43 @@
+---
+title: "Punktprognoser 2025/26"
+---
+
+::: {.demo-banner}
+Här visas retrospektiva punktprognoser från hubbens sex testmodeller. Varje punkt är modellens förväntade antal rapporterade influensafall.
+:::
+
+:::: {.point-controls aria-label="Val för punktprognoser"}
+::: {.point-control}
+<label for="point-location">Plats</label>
+<select id="point-location" class="form-select" disabled></select>
+:::
+
+::: {.point-control}
+<label for="point-reference-date">Prognosdatum</label>
+<select id="point-reference-date" class="form-select" disabled></select>
+:::
+::::
+
+::: {#point-model-controls .point-model-controls aria-label="Välj testmodeller"}
+<div class="point-model-heading">
+  <strong>Testmodeller</strong>
+  <span>
+    <button id="point-select-all" type="button" class="btn btn-sm btn-outline-secondary">Välj alla</button>
+    <button id="point-clear-all" type="button" class="btn btn-sm btn-outline-secondary">Rensa</button>
+  </span>
+</div>
+<div id="point-model-checkboxes" class="point-model-checkboxes"></div>
+:::
+
+::: {#point-forecast-status .small-note role="status"}
+Läser in punktprognoserna …
+:::
+
+::: {#point-forecast-chart aria-label="Diagram med testmodellernas punktprognoser"}
+:::
+
+Den svarta linjen visar det frysta utfallet. De färgade linjerna visar horisont 0–3 för det valda prognosdatumet. Horisont 0 är en prognos för referensveckan och horisont 1–3 avser de följande veckorna.
+
+Data kommer från hubbens [matchade retrospektiva prognoser](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/evaluation-output/2025-2026/matched-forecasts.csv). Modellbeskrivningar finns på sidan [Modeller](models.html).
+
+<script type="module" src="resources/point-forecasts.js"></script>

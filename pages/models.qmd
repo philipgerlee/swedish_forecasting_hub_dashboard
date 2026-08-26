@@ -14,6 +14,6 @@ En probabilistisk baseline. Medelvärdet är genomsnittet av de tre senaste obse
 
 ## Enskilda testmodeller
 
-Demonstrationen innehåller enkla modeller som endast använder data publicerade i hubben: senaste värdet, glidande medelvärden, trend-, tillväxt- och säsongsvarianter. De används som komponenter när QRA:n tränas och deras resultat bevaras för den separata punktprognosvyn.
+Demonstrationen innehåller enkla modeller som endast använder data publicerade i hubben: senaste värdet, glidande medelvärden samt linjära, dämpade och exponentiella trendvarianter. De används som komponenter när QRA:n tränas och kan jämföras i den interaktiva vyn [Punktprognoser](point-forecasts.html).
 
 Fullständiga metadata finns i [model-metadata-katalogen](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/model-metadata). Modellernas körbara implementationer och dokumentation finns i [demo-models](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/demo-models).
