@@ -1,0 +1,198 @@
+[
+  {
+    "objectID": "about-en.html",
+    "href": "about-en.html",
+    "title": "About the hub",
+    "section": "",
+    "text": "The Swedish Influenza Forecast Hub is a research pilot at the Department of Mathematical Sciences, Chalmers University of Technology.\nIts purpose is to make independent influenza forecasts comparable, evaluate them openly and investigate whether a probabilistic ensemble provides more robust decision support than individual models."
+  },
+  {
+    "objectID": "about-en.html#data-source",
+    "href": "about-en.html#data-source",
+    "title": "About the hub",
+    "section": "Data source",
+    "text": "Data source\nObserved data are retrieved from the Public Health Agency of Sweden’s Folkhälsodata database. The retrospective view uses the frozen final version for the 2025/26 season."
+  },
+  {
+    "objectID": "about-en.html#openness",
+    "href": "about-en.html#openness",
+    "title": "About the hub",
+    "section": "Openness",
+    "text": "Openness\nThe formats, validation tools, test models, ensemble code and evaluation results are available in the hub’s GitHub repository."
+  },
+  {
+    "objectID": "current-season.html",
+    "href": "current-season.html",
+    "title": "Aktuell influensasäsong 2026/27",
+    "section": "",
+    "text": "Aktuellt läge\nVyn visar de punktprognoser som har publicerats för innevarande säsong och en probabilistisk QRA-prognos tränad på de retrospektiva resultaten från 2025/26.\n\n\n\n\nPlats\n\n\n\nPrognosdatum\n\n\n\n\n\nPrognoser som visas\n\nVälj alla\nRensa punktmodeller\n\n\n QRA-ensemble med 50 %, 80 % och 95 % prognosintervall\n\n\nLäser in prognoserna …\n\n← Tidigare\n\nSenare →\n\n\n\nQRA:n anpassas till de komponentmodeller som finns för den valda omgången. Antalet komponentmodeller visas under diagrammet. Alla validerade prognoser som har mergeats till hubbens main-gren visas automatiskt.\nSenast publicerad målserie finns i hubbens datafil."
+  },
+  {
+    "objectID": "retrospective.html",
+    "href": "retrospective.html",
+    "title": "Retrospektiva prognoser 2025/26",
+    "section": "",
+    "text": "Varje prognos har återskapats med den information som var tillgänglig vid respektive prognosdatum. Välj enskilda punktprognoser och jämför dem med den probabilistiska QRA-ensemblen.\n\n\n\n\nPlats\n\n\n\nPrognosdatum\n\n\n\n\n\nPrognoser som visas\n\nVälj alla\nRensa punktmodeller\n\n\n QRA-ensemble med 50 %, 80 % och 95 % prognosintervall\n\n\nLäser in prognoserna …\n\n← Tidigare\n\nSenare →\n\n\n\nDen svarta linjen visar det frysta utfallet. Punktmodellernas linjer visar horisont 0–3 från valt prognosdatum. QRA:s median visas som en mörkblå linje och osäkerheten som tre skuggade intervall."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Om hubben",
+    "section": "",
+    "text": "Nationella prognoshubben för influensa är en forskningspilot vid Institutionen för matematiska vetenskaper, Chalmers tekniska högskola.\nSyftet är att göra oberoende influensaprognoser jämförbara, utvärdera dem öppet och undersöka om en probabilistisk ensemble ger ett robustare beslutsunderlag än enskilda modeller."
+  },
+  {
+    "objectID": "about.html#datakälla",
+    "href": "about.html#datakälla",
+    "title": "Om hubben",
+    "section": "Datakälla",
+    "text": "Datakälla\nUtfallsdata hämtas från Folkhälsomyndighetens Folkhälsodata. I det retrospektiva läget används den frysta slutversionen för säsongen 2025/26."
+  },
+  {
+    "objectID": "about.html#öppenhet",
+    "href": "about.html#öppenhet",
+    "title": "Om hubben",
+    "section": "Öppenhet",
+    "text": "Öppenhet\nFormat, validering, testmodeller, ensemblekod och utvärderingsresultat finns i hubbens GitHub-repository."
+  },
+  {
+    "objectID": "current-season-en.html",
+    "href": "current-season-en.html",
+    "title": "Current influenza season 2026/27",
+    "section": "",
+    "text": "Current mode\nThis view presents the point forecasts published for the current season and a probabilistic QRA forecast trained on the retrospective results from 2025/26.\n\n\n\n\nLocation\n\n\n\nForecast date\n\n\n\n\n\nForecasts shown\n\nSelect all\nClear point models\n\n\n QRA ensemble with 50%, 80% and 95% prediction intervals\n\n\nLoading forecasts …\n\n← Earlier\n\nLater →\n\n\n\nThe QRA is fitted to the component models available for the selected round. The number of component models is shown beneath the chart. All validated forecasts merged into the hub’s main branch are displayed automatically.\nThe latest published target time series is available in the hub data file."
+  },
+  {
+    "objectID": "models.html",
+    "href": "models.html",
+    "title": "Modeller",
+    "section": "",
+    "text": "En regulariserad quantile regression averaging-ensemble. Den skattas separat för plats, prognoshorisont och kvantil. Regulariseringen väljs med tidsordnad expanding-window-validering.\n\n\n\nEn probabilistisk baseline. Medelvärdet är genomsnittet av de tre senaste observationerna. Osäkerheten beskrivs med en normalfördelning vars standardavvikelse skattas från historiska rolling-origin-fel separat för plats och horisont."
+  },
+  {
+    "objectID": "models.html#probabilistiska-modeller",
+    "href": "models.html#probabilistiska-modeller",
+    "title": "Modeller",
+    "section": "",
+    "text": "En regulariserad quantile regression averaging-ensemble. Den skattas separat för plats, prognoshorisont och kvantil. Regulariseringen väljs med tidsordnad expanding-window-validering.\n\n\n\nEn probabilistisk baseline. Medelvärdet är genomsnittet av de tre senaste observationerna. Osäkerheten beskrivs med en normalfördelning vars standardavvikelse skattas från historiska rolling-origin-fel separat för plats och horisont."
+  },
+  {
+    "objectID": "models.html#enskilda-punktmodeller",
+    "href": "models.html#enskilda-punktmodeller",
+    "title": "Modeller",
+    "section": "Enskilda punktmodeller",
+    "text": "Enskilda punktmodeller\nDen retrospektiva vyn innehåller alla modeller som har lämnat en fullständig prognosserie för 2025/26: hubbens permanenta testmodeller samt deltagarnas modeller. Den aktuella vyn visar de modeller som har publicerat prognoser för 2026/27.\n\ngerlee-history\nEn adaptiv historisk regressionsmodell. Veckans förväntade antal fall skrivs som en icke-negativ linjär kombination av motsvarande veckor under tidigare säsonger. Vikterna uppdateras under säsongen med gemensam regularisering \\(\\lambda=1\\).\nModellerna kan jämföras i den retrospektiva vyn och i vyn för aktuell säsong. Fullständiga metadata finns i model-metadata-katalogen. Koden för gerlee-history finns i dess modellrepository."
+  },
+  {
+    "objectID": "point-forecasts.html",
+    "href": "point-forecasts.html",
+    "title": "Punktprognoser",
+    "section": "",
+    "text": "Punktprognoserna har flyttats in i de samlade prognosvyerna, där de kan jämföras med QRA-ensemblen:\n\nRetrospektiva prognoser 2025/26\nAktuell influensasäsong"
+  },
+  {
+    "objectID": "evaluation-en.html",
+    "href": "evaluation-en.html",
+    "title": "Evaluation 2025/26",
+    "section": "",
+    "text": "The results refer to retrospective forecasts for the 2025/26 season.\nThe probabilistic evaluation compares the QRA ensemble with the probabilistic baseline model. Lower WIS is better. WIS skill above zero means that the QRA improves on the baseline; a value below zero means that the baseline performs better.\nCoverage rates for the 50%, 80% and 95% intervals are available in the complete results file on GitHub."
+  },
+  {
+    "objectID": "evaluation-en.html#interpretation",
+    "href": "evaluation-en.html#interpretation",
+    "title": "Evaluation 2025/26",
+    "section": "Interpretation",
+    "text": "Interpretation\nWIS rewards accurate forecasts while also penalising unnecessarily wide prediction intervals. A separate metric for interval width is therefore not required. Results from a single retrospective season should be interpreted cautiously and do not, by themselves, demonstrate general model performance."
+  },
+  {
+    "objectID": "evaluation.html",
+    "href": "evaluation.html",
+    "title": "Utvärdering 2025/26",
+    "section": "",
+    "text": "Resultaten avser retrospektiva prognoser för säsongen 2025/26.\nDen probabilistiska utvärderingen jämför QRA-ensemblen med den probabilistiska baseline-modellen. Lägre WIS är bättre. WIS-färdighet över noll betyder att QRA förbättrar baseline; ett värde under noll betyder att baseline är bättre.\nTäckningsgraderna för 50 %, 80 % och 95 % finns i den fullständiga resultatfilen på GitHub."
+  },
+  {
+    "objectID": "evaluation.html#tolkning",
+    "href": "evaluation.html#tolkning",
+    "title": "Utvärdering 2025/26",
+    "section": "Tolkning",
+    "text": "Tolkning\nWIS belönar träffsäkra prognoser men bestraffar samtidigt onödigt breda prognosintervall. Därför behövs ingen separat metrik för intervallbredd. Resultaten från en enskild retrospektiv säsong ska tolkas försiktigt och är inte i sig belägg för generell modellprestanda."
+  },
+  {
+    "objectID": "point-forecasts-en.html",
+    "href": "point-forecasts-en.html",
+    "title": "Point forecasts",
+    "section": "",
+    "text": "The point forecasts have moved to the combined forecast views, where they can be compared with the QRA ensemble:\n\nRetrospective forecasts 2025/26\nCurrent influenza season"
+  },
+  {
+    "objectID": "index-en.html",
+    "href": "index-en.html",
+    "title": "Swedish Influenza Forecast Hub",
+    "section": "",
+    "text": "Retrospective mode · 2025/26 influenza season\nThis dashboard presents forecasts from the models participating in the hub. The retrospective forecasts were generated as if each model had access only to the information available on its respective forecast date."
+  },
+  {
+    "objectID": "index-en.html#comparable-forecasts",
+    "href": "index-en.html#comparable-forecasts",
+    "title": "Swedish Influenza Forecast Hub",
+    "section": "Comparable forecasts",
+    "text": "Comparable forecasts\nThe hub collects forecasts in a common format and presents both individual models and a probabilistic QRA ensemble. The forecasts cover Sweden, the Skåne Region and the Västra Götaland Region, at horizons 0–3.\n\nView retrospective forecasts View the current season View the evaluation"
+  },
+  {
+    "objectID": "index-en.html#what-is-shown",
+    "href": "index-en.html#what-is-shown",
+    "title": "Swedish Influenza Forecast Hub",
+    "section": "What is shown?",
+    "text": "What is shown?\n\nIndividual models: point forecasts from the models included in the hub.\nQRA ensemble: a regularised probabilistic ensemble of the available models.\nProbabilistic baseline: a three-week moving average with uncertainty estimated from historical data.\nObserved data: frozen weekly values from the Public Health Agency of Sweden’s Folkhälsodata database.\n\nThe hub is a research pilot run by the Department of Mathematical Sciences at Chalmers University of Technology."
+  },
+  {
+    "objectID": "models-en.html",
+    "href": "models-en.html",
+    "title": "Models",
+    "section": "",
+    "text": "A regularised quantile regression averaging ensemble. It is estimated separately for each location, forecast horizon and quantile. Regularisation is selected using time-ordered expanding-window validation.\n\n\n\nA probabilistic baseline. Its mean is the average of the three most recent observations. Uncertainty is represented by a normal distribution whose standard deviation is estimated from historical rolling-origin errors, separately for each location and horizon."
+  },
+  {
+    "objectID": "models-en.html#probabilistic-models",
+    "href": "models-en.html#probabilistic-models",
+    "title": "Models",
+    "section": "",
+    "text": "A regularised quantile regression averaging ensemble. It is estimated separately for each location, forecast horizon and quantile. Regularisation is selected using time-ordered expanding-window validation.\n\n\n\nA probabilistic baseline. Its mean is the average of the three most recent observations. Uncertainty is represented by a normal distribution whose standard deviation is estimated from historical rolling-origin errors, separately for each location and horizon."
+  },
+  {
+    "objectID": "models-en.html#individual-point-models",
+    "href": "models-en.html#individual-point-models",
+    "title": "Models",
+    "section": "Individual point models",
+    "text": "Individual point models\nThe retrospective view includes all models that submitted a complete forecast series for 2025/26: the hub’s permanent test models and the participating teams’ models. The current view presents models that have published forecasts for 2026/27.\n\ngerlee-history\nAn adaptive historical-season regression model. The expected number of cases in a given week is represented as a non-negative linear combination of the corresponding weeks in previous seasons. The weights are updated during the season using shared regularisation with \\(\\lambda=1\\).\nThe models can be compared in the retrospective view and the current-season view. Complete metadata are available in the model-metadata directory. The code for gerlee-history is available in its model repository."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nationella prognoshubben för influensa",
+    "section": "",
+    "text": "Retrospektivt läge · influensasäsongen 2025/26\nHär visas prognoser från de modeller som deltar i hubben. De retrospektiva prognoserna är framtagna som om modellerna endast hade haft tillgång till informationen vid respektive prognosdatum."
+  },
+  {
+    "objectID": "index.html#prognoser-som-går-att-jämföra",
+    "href": "index.html#prognoser-som-går-att-jämföra",
+    "title": "Nationella prognoshubben för influensa",
+    "section": "Prognoser som går att jämföra",
+    "text": "Prognoser som går att jämföra\nHubben samlar prognoser i ett gemensamt format och visar både enskilda modeller och en probabilistisk QRA-ensemble. Prognoserna omfattar Sverige, Region Skåne och Västra Götalandsregionen, med horisont 0–3.\n\nVisa retrospektiva prognoser Visa aktuell säsong Se utvärderingen"
+  },
+  {
+    "objectID": "index.html#vad-visas",
+    "href": "index.html#vad-visas",
+    "title": "Nationella prognoshubben för influensa",
+    "section": "Vad visas?",
+    "text": "Vad visas?\n\nEnskilda modeller: punktprognoser från de modeller som ingår i hubben.\nQRA-ensemble: en regulariserad probabilistisk ensemble av tillgängliga modeller.\nProbabilistisk baseline: ett treveckors glidande medelvärde med historiskt skattad osäkerhet.\nUtfall: frysta veckovärden från Folkhälsomyndighetens Folkhälsodata.\n\nHubben är en forskningspilot som drivs av Institutionen för matematiska vetenskaper vid Chalmers tekniska högskola."
+  },
+  {
+    "objectID": "retrospective-en.html",
+    "href": "retrospective-en.html",
+    "title": "Retrospective forecasts 2025/26",
+    "section": "",
+    "text": "Each forecast was recreated using only the information available on its forecast date. Select individual point forecasts and compare them with the probabilistic QRA ensemble.\n\n\n\n\nLocation\n\n\n\nForecast date\n\n\n\n\n\nForecasts shown\n\nSelect all\nClear point models\n\n\n QRA ensemble with 50%, 80% and 95% prediction intervals\n\n\nLoading forecasts …\n\n← Earlier\n\nLater →\n\n\n\nThe black line shows the frozen observed values. The point-model lines show horizons 0–3 from the selected forecast date. The QRA median is shown as a dark-blue line, with uncertainty represented by three shaded intervals."
+  }
+]
