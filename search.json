@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Om hubben",
+    "section": "",
+    "text": "Nationella prognoshubben för influensa är en forskningspilot vid Institutionen för matematiska vetenskaper, Chalmers tekniska högskola.\nSyftet är att göra oberoende influensaprognoser jämförbara, utvärdera dem öppet och undersöka om en probabilistisk ensemble ger ett robustare beslutsunderlag än enskilda modeller."
+  },
+  {
+    "objectID": "about.html#datakälla",
+    "href": "about.html#datakälla",
+    "title": "Om hubben",
+    "section": "Datakälla",
+    "text": "Datakälla\nUtfallsdata hämtas från Folkhälsomyndighetens Folkhälsodata. I demoläget används den frysta slutversionen för säsongen 2025/26."
+  },
+  {
+    "objectID": "about.html#öppenhet",
+    "href": "about.html#öppenhet",
+    "title": "Om hubben",
+    "section": "Öppenhet",
+    "text": "Öppenhet\nFormat, validering, testmodeller, ensemblekod och utvärderingsresultat finns i hubbens GitHub-repository."
+  },
+  {
+    "objectID": "models.html",
+    "href": "models.html",
+    "title": "Modeller",
+    "section": "",
+    "text": "En regulariserad quantile regression averaging-ensemble. Den skattas separat för plats, prognoshorisont och kvantil. Regulariseringen väljs med tidsordnad expanding-window-validering.\n\n\n\nEn probabilistisk baseline. Medelvärdet är genomsnittet av de tre senaste observationerna. Osäkerheten beskrivs med en normalfördelning vars standardavvikelse skattas från historiska rolling-origin-fel separat för plats och horisont."
+  },
+  {
+    "objectID": "models.html#probabilistiska-modeller",
+    "href": "models.html#probabilistiska-modeller",
+    "title": "Modeller",
+    "section": "",
+    "text": "En regulariserad quantile regression averaging-ensemble. Den skattas separat för plats, prognoshorisont och kvantil. Regulariseringen väljs med tidsordnad expanding-window-validering.\n\n\n\nEn probabilistisk baseline. Medelvärdet är genomsnittet av de tre senaste observationerna. Osäkerheten beskrivs med en normalfördelning vars standardavvikelse skattas från historiska rolling-origin-fel separat för plats och horisont."
+  },
+  {
+    "objectID": "models.html#enskilda-testmodeller",
+    "href": "models.html#enskilda-testmodeller",
+    "title": "Modeller",
+    "section": "Enskilda testmodeller",
+    "text": "Enskilda testmodeller\nDemonstrationen innehåller enkla modeller som endast använder data publicerade i hubben: senaste värdet, glidande medelvärden samt linjära, dämpade och exponentiella trendvarianter. De används som komponenter när QRA:n tränas och kan jämföras i den interaktiva vyn Punktprognoser.\nFullständiga metadata finns i model-metadata-katalogen. Modellernas körbara implementationer och dokumentation finns i demo-models."
+  },
+  {
+    "objectID": "current.html",
+    "href": "current.html",
+    "title": "Aktuell säsong",
+    "section": "",
+    "text": "Aktuellt läge\nInga prospektiva prognoser har publicerats ännu.\n\nDen löpande datainsamlingen startar före prognossäsongen. När de första deltagarprognoserna har validerats visas de här automatiskt. Tills dess kan du använda demoläget för 2025/26 för att se hur prognosvyn och utvärderingen fungerar.\nSenast publicerad målserie finns i hubbens datafil."
+  },
+  {
+    "objectID": "point-forecasts.html",
+    "href": "point-forecasts.html",
+    "title": "Punktprognoser 2025/26",
+    "section": "",
+    "text": "Här visas retrospektiva punktprognoser från hubbens sex testmodeller. Varje punkt är modellens förväntade antal rapporterade influensafall.\n\n\n\nPlats \n\n\nPrognosdatum \n\n\n\n\nTestmodeller  Välj alla Rensa \n\n\n\n\n\n\nLäser in punktprognoserna …\n\n\n\n\nDen svarta linjen visar det frysta utfallet. De färgade linjerna visar horisont 0–3 för det valda prognosdatumet. Horisont 0 är en prognos för referensveckan och horisont 1–3 avser de följande veckorna.\nData kommer från hubbens matchade retrospektiva prognoser. Modellbeskrivningar finns på sidan Modeller."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nationella prognoshubben för influensa",
+    "section": "",
+    "text": "Demoläge · influensasäsongen 2025/26\nHär visas retrospektiva prognoser. De är framtagna som om modellerna endast hade haft tillgång till den information som fanns vid respektive prognosdatum."
+  },
+  {
+    "objectID": "index.html#prognoser-som-går-att-jämföra",
+    "href": "index.html#prognoser-som-går-att-jämföra",
+    "title": "Nationella prognoshubben för influensa",
+    "section": "Prognoser som går att jämföra",
+    "text": "Prognoser som går att jämföra\nHubben samlar prognoser i ett gemensamt format och visar både enskilda modeller och en probabilistisk ensemble. Demonstrationen omfattar Sverige, Region Skåne och Västra Götalandsregionen, med prognoser upp till tre veckor framåt.\n\nVisa prognoserna Jämför punktprognoser Se utvärderingen"
+  },
+  {
+    "objectID": "index.html#vad-visas-i-demonstrationen",
+    "href": "index.html#vad-visas-i-demonstrationen",
+    "title": "Nationella prognoshubben för influensa",
+    "section": "Vad visas i demonstrationen?",
+    "text": "Vad visas i demonstrationen?\n\nQRA-ensemble: en regulariserad probabilistisk ensemble av testmodellerna.\nProbabilistisk baseline: ett treveckors glidande medelvärde med historiskt skattad osäkerhet.\nUtfall: frysta veckovärden från Folkhälsomyndighetens Folkhälsodata.\n\nHubben är en forskningspilot som drivs av Institutionen för matematiska vetenskaper vid Chalmers tekniska högskola."
+  },
+  {
+    "objectID": "forecast.html",
+    "href": "forecast.html",
+    "title": "Nationella prognoshubben för influensa",
+    "section": "",
+    "text": "this is replaced"
+  },
+  {
+    "objectID": "evaluation.html",
+    "href": "evaluation.html",
+    "title": "Utvärdering 2025/26",
+    "section": "",
+    "text": "Resultaten avser retrospektiva prognoser för säsongen 2025/26.\nDen probabilistiska utvärderingen jämför QRA-ensemblen med den probabilistiska baseline-modellen. Lägre WIS är bättre. WIS-färdighet över noll betyder att QRA förbättrar baseline; ett värde under noll betyder att baseline är bättre.\nTäckningsgraderna för 50 %, 80 % och 95 % finns i den fullständiga resultatfilen på GitHub."
+  },
+  {
+    "objectID": "evaluation.html#tolkning",
+    "href": "evaluation.html#tolkning",
+    "title": "Utvärdering 2025/26",
+    "section": "Tolkning",
+    "text": "Tolkning\nWIS belönar träffsäkra prognoser men bestraffar samtidigt onödigt breda prognosintervall. Därför behövs ingen separat metrik för intervallbredd. Resultaten från en retrospektiv demosäsong ska ses som en teknisk demonstration, inte som belägg för generell modellprestanda."
+  }
+]

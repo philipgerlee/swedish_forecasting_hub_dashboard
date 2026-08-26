@@ -1,0 +1,68 @@
+:root {
+  --hub-blue: #075985;
+  --hub-sky: #e0f2fe;
+  --hub-amber: #fff7ed;
+  --hub-border: #cbd5e1;
+}
+
+.navbar { border-bottom: 1px solid var(--hub-border); }
+.navbar-brand { font-weight: 650; }
+.demo-banner, .current-banner {
+  border-left: .35rem solid var(--hub-blue);
+  border-radius: .35rem;
+  background: var(--hub-sky);
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.2rem;
+}
+.current-banner { background: var(--hub-amber); border-left-color: #c2410c; }
+.home-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1.5rem 0 2rem; }
+.small-note { color: #475569; margin: 1rem 0; }
+.hub-mode-switch {
+  align-items: center;
+  background: #f8fafc;
+  border-bottom: 1px solid var(--hub-border);
+  display: flex;
+  gap: .8rem;
+  justify-content: center;
+  padding: .55rem 1rem;
+}
+.hub-mode-switch .mode-label { color: #475569; font-size: .9rem; }
+.hub-mode-switch .mode-options { display: inline-flex; border: 1px solid #94a3b8; border-radius: 999px; overflow: hidden; }
+.hub-mode-switch a { color: #334155; padding: .25rem .85rem; text-decoration: none; }
+.hub-mode-switch a.active { background: var(--hub-blue); color: white; }
+.evaluation-table { overflow-x: auto; }
+.evaluation-table table { width: 100%; }
+.evaluation-table th { background: #f1f5f9; white-space: nowrap; }
+.evaluation-table td, .evaluation-table th { padding: .55rem .7rem; }
+.skill-positive { color: #166534; font-weight: 650; }
+.skill-negative { color: #b91c1c; font-weight: 650; }
+.point-controls {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(14rem, 1fr));
+  margin: 1rem 0;
+}
+.point-control label { display: block; font-weight: 650; margin-bottom: .35rem; }
+.point-model-controls {
+  background: #f8fafc;
+  border: 1px solid var(--hub-border);
+  border-radius: .5rem;
+  margin: 1rem 0;
+  padding: .85rem 1rem;
+}
+.point-model-heading { align-items: center; display: flex; gap: 1rem; justify-content: space-between; }
+.point-model-heading span { display: flex; gap: .4rem; }
+.point-model-checkboxes {
+  display: grid;
+  gap: .45rem 1rem;
+  grid-template-columns: repeat(3, minmax(12rem, 1fr));
+  margin-top: .8rem;
+}
+.point-model-option { align-items: center; display: flex; gap: .45rem; }
+.point-model-swatch { border-radius: 50%; display: inline-block; height: .7rem; width: .7rem; }
+#point-forecast-chart { min-height: 34rem; width: 100%; }
+@media (max-width: 576px) {
+  .hub-mode-switch { align-items: flex-start; flex-direction: column; }
+  .point-controls, .point-model-checkboxes { grid-template-columns: 1fr; }
+  #point-forecast-chart { min-height: 28rem; }
+}
