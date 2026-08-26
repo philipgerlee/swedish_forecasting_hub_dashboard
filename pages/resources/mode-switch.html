@@ -6,7 +6,7 @@
   </span>
 </div>
 <script>
-document.addEventListener("DOMContentLoaded", () => {
+function initializeHubInterface() {
   const current = location.pathname.endsWith("current.html") ? "current" : "demo";
   document.querySelectorAll("[data-hub-mode]").forEach((link) => {
     link.classList.toggle("active", link.dataset.hubMode === current);
@@ -20,5 +20,45 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
-});
+
+  const translations = new Map([
+    ["Outcome:", "Utfall:"],
+    ["Weekly reported influenza cases", "Veckovis rapporterade influensafall"],
+    ["Location:", "Plats:"],
+    ["Interval:", "Intervall:"],
+    ["Select Target Data:", "Välj utfallsdata:"],
+    ["Select Models:", "Välj modeller:"],
+    ["Shuffle Colours", "Blanda färger"],
+    ["Note: You can navigate to forecasts from previous weeks with the left and right arrow keys", "Du kan gå mellan tidigare prognosveckor med vänster- och högerpilarna."]
+  ]);
+
+  function translateForecastControls() {
+    const root = document.querySelector("#forecastViz_row");
+    if (!root) return;
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      const trimmed = node.textContent.trim();
+      if (translations.has(trimmed)) {
+        node.textContent = node.textContent.replace(trimmed, translations.get(trimmed));
+      } else if (trimmed.startsWith("Current (")) {
+        node.textContent = node.textContent.replace("Current (", "Aktuellt (");
+      } else if (trimmed.startsWith("As of ")) {
+        node.textContent = node.textContent.replace("As of ", "Per ");
+      }
+    }
+  }
+
+  translateForecastControls();
+  const forecastRoot = document.querySelector("#forecastViz_row");
+  if (forecastRoot) {
+    new MutationObserver(translateForecastControls).observe(forecastRoot, { childList: true, subtree: true });
+  }
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initializeHubInterface);
+} else {
+  initializeHubInterface();
+}
 </script>
