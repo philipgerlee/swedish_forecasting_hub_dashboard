@@ -2,6 +2,7 @@ pages/_site/*
 pages/.quarto/*
 pages/resources/*
 !pages/resources/evaluation.js
+!pages/resources/point-forecasts.js
 !pages/resources/mode-switch.html
 !pages/resources/css/
 !pages/resources/css/custom.css

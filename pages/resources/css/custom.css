@@ -36,6 +36,33 @@
 .evaluation-table td, .evaluation-table th { padding: .55rem .7rem; }
 .skill-positive { color: #166534; font-weight: 650; }
 .skill-negative { color: #b91c1c; font-weight: 650; }
+.point-controls {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(14rem, 1fr));
+  margin: 1rem 0;
+}
+.point-control label { display: block; font-weight: 650; margin-bottom: .35rem; }
+.point-model-controls {
+  background: #f8fafc;
+  border: 1px solid var(--hub-border);
+  border-radius: .5rem;
+  margin: 1rem 0;
+  padding: .85rem 1rem;
+}
+.point-model-heading { align-items: center; display: flex; gap: 1rem; justify-content: space-between; }
+.point-model-heading span { display: flex; gap: .4rem; }
+.point-model-checkboxes {
+  display: grid;
+  gap: .45rem 1rem;
+  grid-template-columns: repeat(3, minmax(12rem, 1fr));
+  margin-top: .8rem;
+}
+.point-model-option { align-items: center; display: flex; gap: .45rem; }
+.point-model-swatch { border-radius: 50%; display: inline-block; height: .7rem; width: .7rem; }
+#point-forecast-chart { min-height: 34rem; width: 100%; }
 @media (max-width: 576px) {
   .hub-mode-switch { align-items: flex-start; flex-direction: column; }
+  .point-controls, .point-model-checkboxes { grid-template-columns: 1fr; }
+  #point-forecast-chart { min-height: 28rem; }
 }
