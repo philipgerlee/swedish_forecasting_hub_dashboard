@@ -137,6 +137,7 @@ async function initializeForecastView() {
     modelRoot.replaceChildren(...modelIds.map((modelId) => {
       const label = document.createElement("label");
       label.className = "forecast-model-option";
+      label.dataset.modelId = modelId;
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       checkbox.value = modelId;
@@ -145,10 +146,15 @@ async function initializeForecastView() {
       swatch.className = "forecast-model-swatch";
       swatch.style.backgroundColor = modelColors.get(modelId);
       const text = document.createElement("span");
+      text.className = "forecast-model-name";
       text.textContent = modelNames.get(modelId) || modelId;
       label.append(checkbox, swatch, text);
       return label;
     }));
+
+    const earlierButton = document.querySelector("#forecast-date-earlier");
+    const laterButton = document.querySelector("#forecast-date-later");
+    const datePosition = document.querySelector("#forecast-date-position");
 
     function render() {
       const location = locationSelect.value;
@@ -157,6 +163,21 @@ async function initializeForecastView() {
       const traces = [];
       const selectedQra = document.querySelector("#forecast-qra").checked;
       const selectedQraRows = qraRows.filter((row) => row.location === location && row.reference_date === referenceDate);
+      const availableModels = new Set(
+        pointRows
+          .filter((row) => row.location === location && row.reference_date === referenceDate)
+          .map((row) => row.model_id)
+      );
+
+      modelRoot.querySelectorAll(".forecast-model-option").forEach((option) => {
+        const modelId = option.dataset.modelId;
+        const available = availableModels.has(modelId);
+        option.classList.toggle("forecast-model-unavailable", !available);
+        option.title = available ? "" : "Ingen prognos för valt datum";
+        option.querySelector(".forecast-model-name").textContent = available
+          ? (modelNames.get(modelId) || modelId)
+          : `${modelNames.get(modelId) || modelId} – ingen prognos detta datum`;
+      });
 
       if (selectedQra && selectedQraRows.length) {
         traces.push(
@@ -243,7 +264,23 @@ async function initializeForecastView() {
       const qraText = selectedQra
         ? (components ? ` QRA:n bygger på ${components} komponentmodell${components === 1 ? "" : "er"}.` : " Ingen QRA finns för denna omgång.")
         : " QRA:n är dold.";
-      status.textContent = `${shownPointModels} punktmodell${shownPointModels === 1 ? "" : "er"} visas.${qraText}`;
+      status.textContent = `${modelIds.length} modeller har lämnat prognoser denna säsong; ${availableModels.size} har prognos för valt datum och ${shownPointModels} visas.${qraText}`;
+
+      const referenceIndex = referenceDates.indexOf(referenceDate);
+      earlierButton.disabled = referenceIndex === referenceDates.length - 1;
+      laterButton.disabled = referenceIndex === 0;
+      datePosition.textContent = `Prognosdatum ${referenceDates.length - referenceIndex} av ${referenceDates.length}`;
+    }
+
+    function moveReferenceDate(step) {
+      const currentIndex = referenceDates.indexOf(referenceSelect.value);
+      const nextIndex = Math.min(
+        referenceDates.length - 1,
+        Math.max(0, currentIndex + step)
+      );
+      if (nextIndex === currentIndex) return;
+      referenceSelect.value = referenceDates[nextIndex];
+      render();
     }
 
     locationSelect.disabled = false;
@@ -260,6 +297,8 @@ async function initializeForecastView() {
       modelRoot.querySelectorAll("input").forEach((input) => { input.checked = false; });
       render();
     });
+    earlierButton.addEventListener("click", () => moveReferenceDate(1));
+    laterButton.addEventListener("click", () => moveReferenceDate(-1));
     render();
   } catch (error) {
     status.textContent = "Prognosdata kunde inte läsas in. Försök igen om en stund.";

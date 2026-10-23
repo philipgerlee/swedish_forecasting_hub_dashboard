@@ -92,13 +92,24 @@
   margin-top: .8rem;
 }
 .forecast-model-option { align-items: center; display: flex; gap: .45rem; }
+.forecast-model-unavailable { color: #64748b; opacity: .65; }
 .forecast-model-swatch { border-radius: 50%; display: inline-block; height: .75rem; width: .75rem; }
 .forecast-model-swatch.ensemble { background: var(--hub-blue); }
 #forecast-chart { min-height: 38rem; width: 100%; }
+.forecast-date-navigation {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: .5rem 0 1.5rem;
+}
+.forecast-date-navigation span { color: #475569; min-width: 12rem; text-align: center; }
 @media (max-width: 576px) {
   .hub-mode-switch { align-items: flex-start; flex-direction: column; }
   .point-controls, .point-model-checkboxes, .forecast-controls, .forecast-model-checkboxes { grid-template-columns: 1fr; }
   .forecast-model-heading { align-items: flex-start; flex-direction: column; }
   #point-forecast-chart { min-height: 28rem; }
   #forecast-chart { min-height: 31rem; }
+  .forecast-date-navigation { gap: .5rem; }
+  .forecast-date-navigation span { min-width: 0; }
 }

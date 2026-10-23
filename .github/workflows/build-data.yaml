@@ -56,6 +56,7 @@ jobs:
           evaluation="${{ runner.temp }}/evaluation"
           data="${{ runner.temp }}/dashboard-data"
           match-retrospective-forecasts \
+            --exclude-model-prefix hubdemo- \
             --output "$evaluation/matched-forecasts.csv" \
             --report "$evaluation/match-report.json"
           build-retrospective-qra \
