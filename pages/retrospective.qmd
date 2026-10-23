@@ -30,17 +30,17 @@ Varje prognos har återskapats med den information som var tillgänglig vid resp
 <div id="forecast-model-checkboxes" class="forecast-model-checkboxes"></div>
 </div>
 <div id="forecast-status" class="small-note" role="status">Läser in prognoserna …</div>
-<div id="forecast-chart" aria-label="Retrospektiva punktprognoser och probabilistisk ensemble"></div>
 <div class="forecast-date-navigation" aria-label="Byt prognosdatum">
 <button id="forecast-date-earlier" type="button" class="btn btn-outline-secondary">← Tidigare</button>
 <span id="forecast-date-position" aria-live="polite"></span>
 <button id="forecast-date-later" type="button" class="btn btn-outline-secondary">Senare →</button>
 </div>
+<div id="forecast-chart" aria-label="Retrospektiva punktprognoser och probabilistisk ensemble"></div>
 </div>
 ```
 
 Den svarta linjen visar det frysta utfallet. Punktmodellernas linjer visar horisont 0–3 från valt prognosdatum. QRA:s median visas som en mörkblå linje och osäkerheten som tre skuggade intervall.
 
 ```{=html}
-<script type="module" src="resources/forecast-view.js"></script>
+<script type="module" src="resources/forecast-view.js?v=20261023-1"></script>
 ```

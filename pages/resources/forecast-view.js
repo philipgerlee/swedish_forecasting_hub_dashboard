@@ -109,10 +109,10 @@ async function initializeForecastView() {
 
   try {
     const [pointResponse, qraResponse, outcomeResponse, modelResponse] = await Promise.all([
-      fetch(`${DATA_ROOT}/${prefix}-point.csv`),
-      fetch(`${DATA_ROOT}/${prefix}-qra.csv`),
-      fetch(`${DATA_ROOT}/${prefix}-outcomes.csv`),
-      fetch(`${DATA_ROOT}/models.json`)
+      fetch(`${DATA_ROOT}/${prefix}-point.csv`, { cache: "no-store" }),
+      fetch(`${DATA_ROOT}/${prefix}-qra.csv`, { cache: "no-store" }),
+      fetch(`${DATA_ROOT}/${prefix}-outcomes.csv`, { cache: "no-store" }),
+      fetch(`${DATA_ROOT}/models.json`, { cache: "no-store" })
     ]);
     for (const response of [pointResponse, qraResponse, outcomeResponse, modelResponse]) {
       if (!response.ok) throw new Error(`HTTP ${response.status} för ${response.url}`);

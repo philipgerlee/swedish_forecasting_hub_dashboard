@@ -32,12 +32,12 @@ Vyn visar de punktprognoser som har publicerats för innevarande säsong och en 
 <div id="forecast-model-checkboxes" class="forecast-model-checkboxes"></div>
 </div>
 <div id="forecast-status" class="small-note" role="status">Läser in prognoserna …</div>
-<div id="forecast-chart" aria-label="Aktuella punktprognoser och probabilistisk ensemble"></div>
 <div class="forecast-date-navigation" aria-label="Byt prognosdatum">
 <button id="forecast-date-earlier" type="button" class="btn btn-outline-secondary">← Tidigare</button>
 <span id="forecast-date-position" aria-live="polite"></span>
 <button id="forecast-date-later" type="button" class="btn btn-outline-secondary">Senare →</button>
 </div>
+<div id="forecast-chart" aria-label="Aktuella punktprognoser och probabilistisk ensemble"></div>
 </div>
 ```
 
@@ -46,5 +46,5 @@ QRA:n anpassas till de komponentmodeller som finns för den valda omgången. Ant
 Senast publicerad målserie finns i [hubbens datafil](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/target-data/time-series.csv).
 
 ```{=html}
-<script type="module" src="resources/forecast-view.js"></script>
+<script type="module" src="resources/forecast-view.js?v=20261023-1"></script>
 ```
