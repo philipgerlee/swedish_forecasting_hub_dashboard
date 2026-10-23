@@ -8,6 +8,7 @@ title: "Aktuell influensasäsong 2026/27"
 Vyn visar de punktprognoser som har publicerats för innevarande säsong och en probabilistisk QRA-prognos tränad på de retrospektiva resultaten från 2025/26.
 :::
 
+```{=html}
 <div class="forecast-explorer" data-forecast-mode="current">
   <div class="forecast-controls" aria-label="Val för aktuella prognoser">
     <div class="forecast-control">
@@ -33,9 +34,12 @@ Vyn visar de punktprognoser som har publicerats för innevarande säsong och en 
   <div id="forecast-status" class="small-note" role="status">Läser in prognoserna …</div>
   <div id="forecast-chart" aria-label="Aktuella punktprognoser och probabilistisk ensemble"></div>
 </div>
+```
 
 QRA:n anpassas till de komponentmodeller som finns för den valda omgången. Antalet komponentmodeller visas under diagrammet. Vecka 40–42 är reproducerade backfills; från vecka 43 körs `gerlee-history` i det ordinarie veckoflödet.
 
 Senast publicerad målserie finns i [hubbens datafil](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/target-data/time-series.csv).
 
+```{=html}
 <script type="module" src="resources/forecast-view.js"></script>
+```

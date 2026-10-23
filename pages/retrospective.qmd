@@ -6,6 +6,7 @@ title: "Retrospektiva prognoser 2025/26"
 Varje prognos har återskapats med den information som var tillgänglig vid respektive prognosdatum. Välj enskilda punktprognoser och jämför dem med den probabilistiska QRA-ensemblen.
 :::
 
+```{=html}
 <div class="forecast-explorer" data-forecast-mode="retrospective">
   <div class="forecast-controls" aria-label="Val för retrospektiva prognoser">
     <div class="forecast-control">
@@ -31,7 +32,10 @@ Varje prognos har återskapats med den information som var tillgänglig vid resp
   <div id="forecast-status" class="small-note" role="status">Läser in prognoserna …</div>
   <div id="forecast-chart" aria-label="Retrospektiva punktprognoser och probabilistisk ensemble"></div>
 </div>
+```
 
 Den svarta linjen visar det frysta utfallet. Punktmodellernas linjer visar horisont 0–3 från valt prognosdatum. QRA:s median visas som en mörkblå linje och osäkerheten som tre skuggade intervall.
 
+```{=html}
 <script type="module" src="resources/forecast-view.js"></script>
+```
