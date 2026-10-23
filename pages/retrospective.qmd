@@ -8,29 +8,29 @@ Varje prognos har återskapats med den information som var tillgänglig vid resp
 
 ```{=html}
 <div class="forecast-explorer" data-forecast-mode="retrospective">
-  <div class="forecast-controls" aria-label="Val för retrospektiva prognoser">
-    <div class="forecast-control">
-      <label for="forecast-location">Plats</label>
-      <select id="forecast-location" class="form-select" disabled></select>
-    </div>
-    <div class="forecast-control">
-      <label for="forecast-reference-date">Prognosdatum</label>
-      <select id="forecast-reference-date" class="form-select" disabled></select>
-    </div>
-  </div>
-  <div class="forecast-model-controls" aria-label="Välj modeller">
-    <div class="forecast-model-heading">
-      <strong>Prognoser som visas</strong>
-      <span>
-        <button id="forecast-select-all" type="button" class="btn btn-sm btn-outline-secondary">Välj alla</button>
-        <button id="forecast-clear-all" type="button" class="btn btn-sm btn-outline-secondary">Rensa punktmodeller</button>
-      </span>
-    </div>
-    <label class="forecast-ensemble-option"><input id="forecast-qra" type="checkbox" checked> <span class="forecast-model-swatch ensemble"></span>QRA-ensemble med 50 %, 80 % och 95 % prognosintervall</label>
-    <div id="forecast-model-checkboxes" class="forecast-model-checkboxes"></div>
-  </div>
-  <div id="forecast-status" class="small-note" role="status">Läser in prognoserna …</div>
-  <div id="forecast-chart" aria-label="Retrospektiva punktprognoser och probabilistisk ensemble"></div>
+<div class="forecast-controls" aria-label="Val för retrospektiva prognoser">
+<div class="forecast-control">
+<label for="forecast-location">Plats</label>
+<select id="forecast-location" class="form-select" disabled></select>
+</div>
+<div class="forecast-control">
+<label for="forecast-reference-date">Prognosdatum</label>
+<select id="forecast-reference-date" class="form-select" disabled></select>
+</div>
+</div>
+<div class="forecast-model-controls" aria-label="Välj modeller">
+<div class="forecast-model-heading">
+<strong>Prognoser som visas</strong>
+<span>
+<button id="forecast-select-all" type="button" class="btn btn-sm btn-outline-secondary">Välj alla</button>
+<button id="forecast-clear-all" type="button" class="btn btn-sm btn-outline-secondary">Rensa punktmodeller</button>
+</span>
+</div>
+<label class="forecast-ensemble-option"><input id="forecast-qra" type="checkbox" checked> <span class="forecast-model-swatch ensemble"></span>QRA-ensemble med 50 %, 80 % och 95 % prognosintervall</label>
+<div id="forecast-model-checkboxes" class="forecast-model-checkboxes"></div>
+</div>
+<div id="forecast-status" class="small-note" role="status">Läser in prognoserna …</div>
+<div id="forecast-chart" aria-label="Retrospektiva punktprognoser och probabilistisk ensemble"></div>
 </div>
 ```
 
