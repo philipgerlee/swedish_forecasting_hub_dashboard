@@ -1,70 +1,19 @@
 <div class="hub-mode-switch" aria-label="Välj visningsläge">
   <span class="mode-label">Visningsläge</span>
   <span class="mode-options">
-    <a data-hub-mode="demo" href="forecast.html">Demo 2025/26</a>
-    <a data-hub-mode="current" href="current.html">Aktuell</a>
+    <a data-hub-mode="retrospective" href="retrospective.html">Retrospektivt 2025/26</a>
+    <a data-hub-mode="current" href="current.html">Aktuell säsong</a>
   </span>
 </div>
 <script>
 function initializeHubInterface() {
-  const current = location.pathname.endsWith("current.html") ? "current" : "demo";
+  let current = null;
+  if (location.pathname.endsWith("current.html")) current = "current";
+  if (location.pathname.endsWith("retrospective.html")) current = "retrospective";
   document.querySelectorAll("[data-hub-mode]").forEach((link) => {
     link.classList.toggle("active", link.dataset.hubMode === current);
     if (link.dataset.hubMode === current) link.setAttribute("aria-current", "page");
   });
-  document.querySelectorAll('a[href$="forecast.html"]').forEach((link) => {
-    if (link.closest(".hub-mode-switch")) return;
-    const label = link.querySelector(".menu-text");
-    if (label && label.textContent.trim() === "Forecasts") label.textContent = "Prognoser";
-  });
-
-  const translations = new Map([
-    ["Outcome:", "Utfall:"],
-    ["Weekly reported influenza cases", "Veckovis rapporterade influensafall"],
-    ["Location:", "Plats:"],
-    ["Interval:", "Intervall:"],
-    ["Select Target Data:", "Välj utfallsdata:"],
-    ["Select Models:", "Välj modeller:"],
-    ["Shuffle Colours", "Blanda färger"],
-    ["Date", "Datum"],
-    ["Note: You can navigate to forecasts from previous weeks with the left and right arrow keys", "Du kan gå mellan tidigare prognosveckor med vänster- och högerpilarna."]
-  ]);
-
-  function translateForecastControls() {
-    const root = document.querySelector("#forecastViz_row");
-    if (!root) return;
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-    while (walker.nextNode()) {
-      const node = walker.currentNode;
-      const trimmed = node.textContent.trim();
-      if (translations.has(trimmed)) {
-        node.textContent = node.textContent.replace(trimmed, translations.get(trimmed));
-      } else if (trimmed.startsWith("Current (")) {
-        node.textContent = node.textContent.replace("Current (", "Aktuellt (");
-      } else if (trimmed.startsWith("As of ")) {
-        node.textContent = node.textContent.replace("As of ", "Per ");
-      } else if (trimmed.startsWith("Forecasts of Weekly reported influenza cases")) {
-        node.textContent = trimmed
-          .replace("Forecasts of Weekly reported influenza cases", "Prognoser för veckovis rapporterade influensafall")
-          .replace("  in ", " i ")
-          .replace(" as of ", " per ");
-      }
-    }
-  }
-
-  translateForecastControls();
-  const forecastRoot = document.querySelector("#forecastViz_row");
-  if (forecastRoot) {
-    new MutationObserver(translateForecastControls).observe(forecastRoot, { childList: true, subtree: true });
-    let translationAttempts = 0;
-    const translationTimer = setInterval(() => {
-      translateForecastControls();
-      translationAttempts += 1;
-      if (translationAttempts >= 40 || !forecastRoot.textContent.includes("Outcome:")) {
-        clearInterval(translationTimer);
-      }
-    }, 250);
-  }
 }
 
 if (document.readyState === "loading") {

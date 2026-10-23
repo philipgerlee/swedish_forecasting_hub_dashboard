@@ -6,7 +6,6 @@ on:
   push:
     branches: [main]
     paths:
-      - predtimechart-config.yml
       - .github/workflows/build-data.yaml
   workflow_dispatch:
 
@@ -46,39 +45,57 @@ jobs:
           cache: pip
           cache-dependency-path: hub/evaluation-pipeline/pyproject.toml
 
-      - name: Install builders
+      - name: Install dashboard data builder
         run: |
           python -m pip install --upgrade pip
           python -m pip install ./hub/evaluation-pipeline
-          python -m pip install git+https://github.com/hubverse-org/hub-dashboard-predtimechart.git@v2.4.0
 
-      - name: Build the Hubverse dashboard view
+      - name: Build retrospective and current dashboard data
         working-directory: hub
-        run: build-dashboard-hub-view --output-root "${{ runner.temp }}/dashboard-hub"
-
-      - name: Generate PredTimeChart files
         run: |
-          mkdir -p "${{ runner.temp }}/ptc/forecasts" "${{ runner.temp }}/ptc/targets"
-          hub_predtimechart \
-            "${{ runner.temp }}/dashboard-hub" \
-            "${{ runner.temp }}/dashboard-hub/predtimechart-config.yml" \
-            "${{ runner.temp }}/ptc/predtimechart-options.json" \
-            "${{ runner.temp }}/ptc/forecasts" \
-            --regenerate
-          cp "${{ runner.temp }}/dashboard-hub/predtimechart-targets/"*.json \
-            "${{ runner.temp }}/ptc/targets/"
+          evaluation="${{ runner.temp }}/evaluation"
+          data="${{ runner.temp }}/dashboard-data"
+          match-retrospective-forecasts \
+            --output "$evaluation/matched-forecasts.csv" \
+            --report "$evaluation/match-report.json"
+          build-retrospective-qra \
+            --input "$evaluation/matched-forecasts.csv" \
+            --output-root "$evaluation/qra"
+          score-retrospective-qra \
+            --qra-input "$evaluation/qra/qra-forecasts.csv" \
+            --matched-input "$evaluation/matched-forecasts.csv" \
+            --output-root "$evaluation/qra-scores"
+          build-retrospective-probabilistic-baseline \
+            --output-root "$evaluation/baseline" \
+            --hubverse-output-root "$evaluation/baseline-hubverse"
+          compare-retrospective-probabilistic-forecasts \
+            --qra-input "$evaluation/qra/qra-forecasts.csv" \
+            --baseline-input "$evaluation/baseline/normal-ma3-baseline-forecasts.csv" \
+            --matched-input "$evaluation/matched-forecasts.csv" \
+            --output-root "$evaluation/comparison"
+          build-current-qra \
+            --matched-input "$evaluation/matched-forecasts.csv" \
+            --output-root "$evaluation/current-qra"
+          build-dashboard-bundle \
+            --matched-input "$evaluation/matched-forecasts.csv" \
+            --retrospective-qra "$evaluation/qra/qra-forecasts.csv" \
+            --current-qra "$evaluation/current-qra/current-qra.csv" \
+            --output-root "$data"
+          cp "$evaluation/comparison/probabilistic-comparison-by-location-horizon.csv" \
+            "$data/probabilistic-comparison-by-location-horizon.csv"
 
       - name: Verify generated data
         run: |
-          test -s "${{ runner.temp }}/ptc/predtimechart-options.json"
-          test "$(find "${{ runner.temp }}/ptc/forecasts" -name '*.json' | wc -l)" -eq 99
-          test "$(find "${{ runner.temp }}/ptc/targets" -name '*.json' | wc -l)" -eq 99
+          data="${{ runner.temp }}/dashboard-data"
+          for file in manifest.json models.json retrospective-point.csv retrospective-qra.csv retrospective-outcomes.csv current-point.csv current-qra.csv current-outcomes.csv probabilistic-comparison-by-location-horizon.csv; do
+            test -s "$data/$file"
+          done
 
       - name: Publish ptc/data branch
         working-directory: published-data
         run: |
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-          cp -R "${{ runner.temp }}/ptc/." .
+          cp -R "${{ runner.temp }}/dashboard-data/." .
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add --all

@@ -1,13 +1,41 @@
 ---
-title: "Aktuell säsong"
+title: "Aktuell influensasäsong 2026/27"
 ---
 
 ::: {.current-banner}
 **Aktuellt läge**
 
-Inga prospektiva prognoser har publicerats ännu.
+Vyn visar de punktprognoser som har publicerats för innevarande säsong och en probabilistisk QRA-prognos tränad på de retrospektiva resultaten från 2025/26.
 :::
 
-Den löpande datainsamlingen startar före prognossäsongen. När de första deltagarprognoserna har validerats visas de här automatiskt. Tills dess kan du använda [demoläget för 2025/26](forecast.html) för att se hur prognosvyn och utvärderingen fungerar.
+<div class="forecast-explorer" data-forecast-mode="current">
+  <div class="forecast-controls" aria-label="Val för aktuella prognoser">
+    <div class="forecast-control">
+      <label for="forecast-location">Plats</label>
+      <select id="forecast-location" class="form-select" disabled></select>
+    </div>
+    <div class="forecast-control">
+      <label for="forecast-reference-date">Prognosdatum</label>
+      <select id="forecast-reference-date" class="form-select" disabled></select>
+    </div>
+  </div>
+  <div class="forecast-model-controls" aria-label="Välj modeller">
+    <div class="forecast-model-heading">
+      <strong>Prognoser som visas</strong>
+      <span>
+        <button id="forecast-select-all" type="button" class="btn btn-sm btn-outline-secondary">Välj alla</button>
+        <button id="forecast-clear-all" type="button" class="btn btn-sm btn-outline-secondary">Rensa punktmodeller</button>
+      </span>
+    </div>
+    <label class="forecast-ensemble-option"><input id="forecast-qra" type="checkbox" checked> <span class="forecast-model-swatch ensemble"></span>QRA-ensemble med 50 %, 80 % och 95 % prognosintervall</label>
+    <div id="forecast-model-checkboxes" class="forecast-model-checkboxes"></div>
+  </div>
+  <div id="forecast-status" class="small-note" role="status">Läser in prognoserna …</div>
+  <div id="forecast-chart" aria-label="Aktuella punktprognoser och probabilistisk ensemble"></div>
+</div>
+
+QRA:n anpassas till de komponentmodeller som finns för den valda omgången. Antalet komponentmodeller visas under diagrammet. Vecka 40–42 är reproducerade backfills; från vecka 43 körs `gerlee-history` i det ordinarie veckoflödet.
 
 Senast publicerad målserie finns i [hubbens datafil](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/target-data/time-series.csv).
+
+<script type="module" src="resources/forecast-view.js"></script>

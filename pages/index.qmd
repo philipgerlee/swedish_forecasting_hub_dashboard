@@ -3,24 +3,25 @@ title: "Nationella prognoshubben för influensa"
 ---
 
 ::: {.demo-banner}
-**Demoläge · influensasäsongen 2025/26**
+**Retrospektivt läge · influensasäsongen 2025/26**
 
-Här visas retrospektiva prognoser. De är framtagna som om modellerna endast hade haft tillgång till den information som fanns vid respektive prognosdatum.
+Här visas prognoser från de modeller som deltar i hubben. De retrospektiva prognoserna är framtagna som om modellerna endast hade haft tillgång till informationen vid respektive prognosdatum.
 :::
 
 ## Prognoser som går att jämföra
 
-Hubben samlar prognoser i ett gemensamt format och visar både enskilda modeller och en probabilistisk ensemble. Demonstrationen omfattar Sverige, Region Skåne och Västra Götalandsregionen, med prognoser upp till tre veckor framåt.
+Hubben samlar prognoser i ett gemensamt format och visar både enskilda modeller och en probabilistisk QRA-ensemble. Prognoserna omfattar Sverige, Region Skåne och Västra Götalandsregionen, med horisont 0–3.
 
 ::: {.home-actions}
-[Visa prognoserna](forecast.html){.btn .btn-primary role="button"}
-[Jämför punktprognoser](point-forecasts.html){.btn .btn-outline-primary role="button"}
+[Visa retrospektiva prognoser](retrospective.html){.btn .btn-primary role="button"}
+[Visa aktuell säsong](current.html){.btn .btn-outline-primary role="button"}
 [Se utvärderingen](evaluation.html){.btn .btn-outline-primary role="button"}
 :::
 
-## Vad visas i demonstrationen?
+## Vad visas?
 
-- **QRA-ensemble:** en regulariserad probabilistisk ensemble av testmodellerna.
+- **Enskilda modeller:** punktprognoser från de modeller som ingår i hubben.
+- **QRA-ensemble:** en regulariserad probabilistisk ensemble av tillgängliga modeller.
 - **Probabilistisk baseline:** ett treveckors glidande medelvärde med historiskt skattad osäkerhet.
 - **Utfall:** frysta veckovärden från Folkhälsomyndighetens Folkhälsodata.
 

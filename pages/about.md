@@ -8,7 +8,7 @@ Syftet är att göra oberoende influensaprognoser jämförbara, utvärdera dem �
 
 ## Datakälla
 
-Utfallsdata hämtas från Folkhälsomyndighetens Folkhälsodata. I demoläget används den frysta slutversionen för säsongen 2025/26.
+Utfallsdata hämtas från Folkhälsomyndighetens Folkhälsodata. I det retrospektiva läget används den frysta slutversionen för säsongen 2025/26.
 
 ## Öppenhet
 

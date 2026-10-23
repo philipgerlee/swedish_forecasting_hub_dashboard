@@ -12,8 +12,12 @@ En regulariserad quantile regression averaging-ensemble. Den skattas separat fö
 
 En probabilistisk baseline. Medelvärdet är genomsnittet av de tre senaste observationerna. Osäkerheten beskrivs med en normalfördelning vars standardavvikelse skattas från historiska rolling-origin-fel separat för plats och horisont.
 
-## Enskilda testmodeller
+## Enskilda punktmodeller
 
-Demonstrationen innehåller enkla modeller som endast använder data publicerade i hubben: senaste värdet, glidande medelvärden samt linjära, dämpade och exponentiella trendvarianter. De används som komponenter när QRA:n tränas och kan jämföras i den interaktiva vyn [Punktprognoser](point-forecasts.html).
+Den retrospektiva vyn innehåller alla modeller som har lämnat en fullständig prognosserie för 2025/26: hubbens permanenta testmodeller samt deltagarnas modeller. Den aktuella vyn visar de modeller som har publicerat prognoser för 2026/27.
 
-Fullständiga metadata finns i [model-metadata-katalogen](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/model-metadata). Modellernas körbara implementationer och dokumentation finns i [demo-models](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/demo-models).
+### gerlee-history
+
+En adaptiv historisk regressionsmodell. Veckans förväntade antal fall skrivs som en icke-negativ linjär kombination av motsvarande veckor under tidigare säsonger. Vikterna uppdateras under säsongen med gemensam regularisering $\lambda=1$.
+
+Modellerna kan jämföras i [den retrospektiva vyn](retrospective.html) och i [vyn för aktuell säsong](current.html). Fullständiga metadata finns i [model-metadata-katalogen](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/model-metadata). Koden för `gerlee-history` finns i dess [modellrepository](https://github.com/philipgerlee/swedish-influenza-history-model).
