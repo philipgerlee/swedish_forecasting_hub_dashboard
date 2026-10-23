@@ -23,54 +23,6 @@
       "method_category": "statistical",
       "has_retrospective": true,
       "has_current": true
-    },
-    {
-      "model_id": "hubdemo-damped4",
-      "model_name": "Four-week damped trend baseline",
-      "team_name": "Swedish Influenza Forecast Hub demonstration models",
-      "method_category": "baseline",
-      "has_retrospective": true,
-      "has_current": false
-    },
-    {
-      "model_id": "hubdemo-exptrend4",
-      "model_name": "Four-week exponential trend baseline",
-      "team_name": "Swedish Influenza Forecast Hub demonstration models",
-      "method_category": "baseline",
-      "has_retrospective": true,
-      "has_current": false
-    },
-    {
-      "model_id": "hubdemo-linear4",
-      "model_name": "Four-week linear trend baseline",
-      "team_name": "Swedish Influenza Forecast Hub demonstration models",
-      "method_category": "baseline",
-      "has_retrospective": true,
-      "has_current": false
-    },
-    {
-      "model_id": "hubdemo-mean3",
-      "model_name": "Three-week mean baseline",
-      "team_name": "Swedish Influenza Forecast Hub demonstration models",
-      "method_category": "baseline",
-      "has_retrospective": true,
-      "has_current": false
-    },
-    {
-      "model_id": "hubdemo-mean6",
-      "model_name": "Six-week mean baseline",
-      "team_name": "Swedish Influenza Forecast Hub demonstration models",
-      "method_category": "baseline",
-      "has_retrospective": true,
-      "has_current": false
-    },
-    {
-      "model_id": "hubdemo-persistence",
-      "model_name": "Persistence baseline",
-      "team_name": "Swedish Influenza Forecast Hub demonstration models",
-      "method_category": "baseline",
-      "has_retrospective": true,
-      "has_current": false
     }
   ]
 }
