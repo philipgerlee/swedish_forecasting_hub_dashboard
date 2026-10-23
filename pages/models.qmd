@@ -20,4 +20,4 @@ Den retrospektiva vyn innehåller alla modeller som har lämnat en fullständig 
 
 En adaptiv historisk regressionsmodell. Veckans förväntade antal fall skrivs som en icke-negativ linjär kombination av motsvarande veckor under tidigare säsonger. Vikterna uppdateras under säsongen med gemensam regularisering $\lambda=1$.
 
-Modellerna kan jämföras i [den retrospektiva vyn](retrospective.html) och i [vyn för aktuell säsong](current.html). Fullständiga metadata finns i [model-metadata-katalogen](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/model-metadata). Koden för `gerlee-history` finns i dess [modellrepository](https://github.com/philipgerlee/swedish-influenza-history-model).
+Modellerna kan jämföras i [den retrospektiva vyn](retrospective.html) och i [vyn för aktuell säsong](current-season.html). Fullständiga metadata finns i [model-metadata-katalogen](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/model-metadata). Koden för `gerlee-history` finns i dess [modellrepository](https://github.com/philipgerlee/swedish-influenza-history-model).

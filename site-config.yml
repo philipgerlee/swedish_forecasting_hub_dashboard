@@ -7,7 +7,7 @@ pages:
     href: retrospective.qmd
   - text: "Aktuell säsong"
     icon: calendar-week
-    href: current.qmd
+    href: current-season.qmd
   - text: "Utvärdering"
     icon: table
     href: evaluation.qmd

@@ -5,4 +5,4 @@ title: "Punktprognoser"
 Punktprognoserna har flyttats in i de samlade prognosvyerna, där de kan jämföras med QRA-ensemblen:
 
 - [Retrospektiva prognoser 2025/26](retrospective.html)
-- [Aktuell influensasäsong](current.html)
+- [Aktuell influensasäsong](current-season.html)

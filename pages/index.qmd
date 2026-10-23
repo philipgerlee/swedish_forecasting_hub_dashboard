@@ -14,7 +14,7 @@ Hubben samlar prognoser i ett gemensamt format och visar både enskilda modeller
 
 ::: {.home-actions}
 [Visa retrospektiva prognoser](retrospective.html){.btn .btn-primary role="button"}
-[Visa aktuell säsong](current.html){.btn .btn-outline-primary role="button"}
+[Visa aktuell säsong](current-season.html){.btn .btn-outline-primary role="button"}
 [Se utvärderingen](evaluation.html){.btn .btn-outline-primary role="button"}
 :::
 

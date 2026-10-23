@@ -2,13 +2,13 @@
   <span class="mode-label">Visningsläge</span>
   <span class="mode-options">
     <a data-hub-mode="retrospective" href="retrospective.html">Retrospektivt 2025/26</a>
-    <a data-hub-mode="current" href="current.html">Aktuell säsong</a>
+    <a data-hub-mode="current" href="current-season.html">Aktuell säsong</a>
   </span>
 </div>
 <script>
 function initializeHubInterface() {
   let current = null;
-  if (location.pathname.endsWith("current.html")) current = "current";
+  if (location.pathname.endsWith("current-season.html")) current = "current";
   if (location.pathname.endsWith("retrospective.html")) current = "retrospective";
   document.querySelectorAll("[data-hub-mode]").forEach((link) => {
     link.classList.toggle("active", link.dataset.hubMode === current);
