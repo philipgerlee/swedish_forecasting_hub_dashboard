@@ -1,25 +1,25 @@
 reference_date,target_end_date,target,horizon,location,location_name,output_type,output_type_id,value,raw_value,training_sample_count,training_last_target_end_date,component_model_count,component_models,selected_alpha,quantile_crossing_adjusted,outcome_data_version
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.025,11.0358811393,29,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.1,15.5820380428,55,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.25,29,11.0358811393,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.5,37.7827007525,15.5820380428,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.75,42.0038661013,37.7827007525,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.9,55,42.0038661013,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.975,103.470380946,103.470380946,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.025,27.5151328854,29,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.1,29,55,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.25,35.373828963,27.5151328854,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.5,55,35.373828963,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.75,55.910293762,55.910293762,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.9,68.4855514967,68.4855514967,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.975,129.674947903,129.674947903,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.025,24.1313830853,29,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.1,29,55,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.25,37.2799822646,24.1313830853,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.5,55,37.2799822646,33,2026-05-17,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.75,55.8741775266,55.8741775266,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.9,90.0899788528,90.0899788528,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.975,110.404737035,110.404737035,33,2026-05-17,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.025,14.146189198,14.146189198,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.1,19.1312074978,19.1312074978,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.25,28.2859501812,28.2859501812,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.5,36.4010647306,36.4010647306,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.75,45.5975859261,45.5975859261,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.9,67.2117648287,67.2117648287,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE,Sverige,quantile,0.975,93.6473057673,93.6473057673,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.025,26.6622798956,26.6622798956,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.1,42.1976374709,42.1976374709,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.25,51.3915766354,51.3915766354,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.5,66.3562776116,66.3562776116,33,2026-05-17,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.75,71.3964990249,71.3964990249,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.9,96.0951073784,96.0951073784,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE,Sverige,quantile,0.975,132.292415741,132.292415741,33,2026-05-17,1,brannstrom-seirlovvader,0,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.025,29,29,33,2026-05-17,1,dvirnas-edm,1,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.1,48.4878341217,55,33,2026-05-17,1,dvirnas-edm,1,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.25,55,48.4878341217,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.5,58.8689704187,58.8689704187,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.75,77.0482045739,77.0482045739,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.9,83.8557384909,83.8557384909,33,2026-05-17,1,dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE,Sverige,quantile,0.975,97.6602891847,97.6602891847,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE,Sverige,quantile,0.025,29,29,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE,Sverige,quantile,0.1,47.0414246045,55,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE,Sverige,quantile,0.25,55,47.0414246045,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
@@ -27,27 +27,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE,Sverige,quantile,0.75,78.551804319,78.551804319,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE,Sverige,quantile,0.9,116.367133753,116.367133753,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE,Sverige,quantile,0.975,174.266340865,174.266340865,33,2026-05-17,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.025,12.4037570133,12.4037570133,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.1,16.7819067284,55,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.25,18.4826117183,18.4826117183,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.5,37.3081137249,16.7819067284,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.75,55,37.3081137249,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.9,109.754303661,109.754303661,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.975,219.392635168,219.392635168,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.025,0,-32.0283573054,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.1,23.7669881653,55,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.25,33.8992738139,23.7669881653,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.5,55,33.8992738139,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.75,57.6144557682,57.6144557682,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.9,140.383458096,140.383458096,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.975,249.965832078,249.965832078,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.025,33,33,33,2026-05-24,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.1,43.264677187,55,33,2026-05-24,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.25,47.7171201418,47.7171201418,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.5,55,43.264677187,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.75,68.6151017284,68.6151017284,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.9,73.094169124,73.094169124,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.975,89.1912178121,89.1912178121,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.025,9.61288272733,9.61288272733,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.1,28.8452259588,28.8452259588,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.25,31.8999522547,31.8999522547,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.5,40.6924109493,40.6924109493,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.75,49.5407193292,49.5407193292,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.9,86.2140662953,86.2140662953,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE,Sverige,quantile,0.975,188.858110929,188.858110929,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.025,33,33,33,2026-05-24,1,brannstrom-seirlovvader,1,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.1,58.4620063728,58.4620063728,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.25,66.2247277366,66.2247277366,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.5,77.6816986268,77.6816986268,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.75,143.990860164,143.990860164,33,2026-05-24,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.9,259.680770498,259.680770498,33,2026-05-24,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE,Sverige,quantile,0.975,994.376132993,994.376132993,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.025,33,33,33,2026-05-24,1,dvirnas-edm,1,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.1,43.8047672371,43.8047672371,33,2026-05-24,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.25,53.2056636821,53.2056636821,33,2026-05-24,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.5,62.6016321458,62.6016321458,33,2026-05-24,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.75,93.4627670562,93.4627670562,33,2026-05-24,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.9,105.468942133,105.468942133,33,2026-05-24,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE,Sverige,quantile,0.975,121.327914243,121.327914243,33,2026-05-24,1,dvirnas-edm,0,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE,Sverige,quantile,0.025,33,33,33,2026-05-24,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE,Sverige,quantile,0.1,55,55,33,2026-05-24,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE,Sverige,quantile,0.25,61.7088467544,71.029460491,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.1,true,2026-08-25T00:00:00Z
@@ -55,27 +55,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE,Sverige,quantile,0.75,85.0514183625,93.5964145476,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE,Sverige,quantile,0.9,93.4166337014,85.0514183625,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE,Sverige,quantile,0.975,93.5964145476,93.4166337014,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.025,0.262815342278,0.262815342278,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.1,9.2971969518,24.0734169255,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.25,24.0734169255,26.2852001006,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.5,26.2852001006,9.2971969518,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.75,36.9125235299,36.9125235299,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.9,240.318630824,240.318630824,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.975,328.153849973,328.153849973,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.025,14.2376322093,14.2376322093,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.1,15.0684127407,15.0684127407,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.25,32.8915990269,39.1524668388,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.5,39.1524668388,32.8915990269,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.75,87.7631222869,87.7631222869,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.9,233.427607601,257.00482355,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.975,257.00482355,233.427607601,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.025,0,-29.6643009822,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.1,0,-42.1294832304,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.25,0,-18.8366550633,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.1,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.5,16.4636876281,16.4636876281,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.75,85.6037200539,85.6037200539,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.9,145.793270895,145.793270895,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.975,188.471173951,188.471173951,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.025,2.01747618376,2.01747618376,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.1,42.5536265477,42.5536265477,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.25,47.5528902748,47.5528902748,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.5,55.5214990311,55.5214990311,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.75,92.1795442119,92.1795442119,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.9,224.097056349,279.956884234,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE,Sverige,quantile,0.975,279.956884234,224.097056349,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0,true,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.025,0,-31.8458752415,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.1,62.0438575062,62.0438575062,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.25,82.1705334477,82.1705334477,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.5,122.710862794,122.710862794,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.75,219.521998374,219.521998374,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.9,660.410901933,660.410901933,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE,Sverige,quantile,0.975,1539.2378646,1539.2378646,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.025,42.5649167355,42.5649167355,33,2026-05-31,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.1,44.194182696,44.194182696,33,2026-05-31,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.25,49.3897076234,49.3897076234,33,2026-05-31,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.5,75.6553276415,75.6553276415,33,2026-05-31,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.75,185.879751544,185.879751544,33,2026-05-31,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.9,432.842600007,432.842600007,33,2026-05-31,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE,Sverige,quantile,0.975,557.74638664,557.74638664,33,2026-05-31,1,dvirnas-edm,0,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE,Sverige,quantile,0.025,0,-21.1502460682,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE,Sverige,quantile,0.1,0,-33.5411880531,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE,Sverige,quantile,0.25,0,-9.56877616465,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.1,false,2026-08-25T00:00:00Z
@@ -83,27 +83,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE,Sverige,quantile,0.75,104.010457434,104.010457434,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE,Sverige,quantile,0.9,169.37280835,169.37280835,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE,Sverige,quantile,0.975,212.310882844,212.310882844,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.025,0,-7.36415323307,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.1,0,24.7151503953,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.25,6.60090462374,6.60090462374,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.5,24.7151503953,-24.0140563189,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.75,39.6380412687,39.6380412687,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.9,181.474813755,181.474813755,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.975,195.699910373,195.699910373,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.025,12.59296669,12.59296669,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.1,15.9083252489,15.9083252489,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.25,24.2483407418,24.2483407418,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.1,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.5,53.288327953,53.288327953,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.1,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.75,91.4312303965,91.4312303965,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.9,145.972101229,145.972101229,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.975,203.552652945,203.552652945,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.025,0,-47.9778213093,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.1,0,-55.6621173827,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.25,5.5893402425,5.5893402425,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.1,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.5,45.7600638372,45.7600638372,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.75,92.0668463584,92.0668463584,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.9,173.036607618,173.036607618,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.975,215.567844755,215.567844755,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.025,15.521437328,15.521437328,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.1,56.2271252908,56.2271252908,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.25,66.9654691319,66.9654691319,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.5,92.7818700093,92.7818700093,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.75,276.891562559,276.891562559,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.9,768.816383549,768.816383549,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE,Sverige,quantile,0.975,802.036442857,802.036442857,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.025,0,-38.5970213302,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.1,64.847452402,64.847452402,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.25,97.4249499362,97.4249499362,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.5,156.332231636,156.332231636,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.75,365.358834685,365.358834685,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.9,1286.31275338,1286.31275338,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE,Sverige,quantile,0.975,1522.78904927,1522.78904927,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.025,36.3722947887,36.3722947887,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.1,40.5258583553,40.5258583553,33,2026-06-07,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.25,52.9029729885,52.9029729885,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.5,73.3422904635,73.3422904635,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.75,345.202455315,345.202455315,33,2026-06-07,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.9,731.354140679,731.354140679,33,2026-06-07,1,dvirnas-edm,0,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE,Sverige,quantile,0.975,745.094791289,745.094791289,33,2026-06-07,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE,Sverige,quantile,0.025,0,-41.4611042594,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE,Sverige,quantile,0.1,0,-55.0183295681,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE,Sverige,quantile,0.25,11.5513469725,11.5513469725,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.1,false,2026-08-25T00:00:00Z
@@ -111,27 +111,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE,Sverige,quantile,0.75,127.889929037,127.889929037,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE,Sverige,quantile,0.9,192.367943536,192.367943536,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE,Sverige,quantile,0.975,261.149283993,261.149283993,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.025,0,0,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.1,1.90971205156,1.90971205156,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.25,3.49373098995,3.73686216176,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.5,3.73686216176,3.49373098995,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.75,6.34812851504,6.34812851504,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.9,6.84817187072,7.35851248819,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.975,7.35851248819,6.84817187072,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.025,0,0,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,1,false,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.1,2.76762628686,2.76762628686,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.25,4.00259491476,4.00259491476,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0,false,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.5,4.47453445194,4.47453445194,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.75,7.21662163709,7.21662163709,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.9,8.52692886056,8.52692886056,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.975,13.8399162039,13.8399162039,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.025,0,0,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.1,0,-0.807833461612,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.25,2.04700205942,2.04700205942,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.5,4.50567503198,4.50567503198,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.75,6.04684361569,6.04684361569,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.9,9.09334512111,9.09334512111,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.975,10.0843263261,10.0843263261,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.025,0,0,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,1,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.1,2.72027904684,2.72027904684,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.25,3.22416887671,3.22416887671,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.5,5.92898323905,5.92898323905,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.75,6.96939616069,6.96939616069,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.9,7.57613283046,7.87818965934,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.975,7.87818965934,7.57613283046,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.025,0,0,33,2026-05-17,1,brannstrom-seirlovvader,1,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.1,2.76762628686,2.76762628686,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.25,3.47611941077,3.47611941077,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.5,7.23468483775,7.23468483775,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.75,8.95568872915,8.95568872915,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.9,10.4681519517,10.4681519517,33,2026-05-17,1,brannstrom-seirlovvader,0,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.975,15.7880509517,15.7880509517,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.025,0.155082362794,0.155082362794,33,2026-05-17,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.1,0.582450418531,0.582450418531,33,2026-05-17,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.25,2.16324158707,2.16324158707,33,2026-05-17,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.5,4.61074626306,4.61074626306,33,2026-05-17,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.75,6.04684361569,6.04684361569,33,2026-05-17,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.9,9.09334512111,9.09334512111,33,2026-05-17,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.975,10.0843263261,10.0843263261,33,2026-05-17,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.025,0,0,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,false,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.1,1.37732816666,1.37732816666,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.25,4.17478081959,4.17478081959,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
@@ -139,27 +139,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.75,9.42342612818,9.42342612818,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.9,12.7536290662,12.7536290662,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-M,Region Skåne,quantile,0.975,14.0809412022,14.0809412022,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.025,1.37647911383,1.37647911383,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.1,1.52511213536,1.52511213536,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.25,4.40014675969,4.40014675969,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.5,4.65950619259,5.15379741363,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.75,5.15379741363,6.04569968225,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.9,6.04569968225,4.65950619259,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.975,6.31642760818,6.31642760818,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.025,1.96038961593,1.96038961593,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.1,2.80484612265,2.80484612265,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.25,5.71004743162,5.84968151654,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.5,5.84968151654,5.71004743162,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.75,7.7520163292,7.7520163292,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.9,8.36371228101,8.36371228101,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.975,21.3986029272,21.3986029272,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.025,0,-20.91932569,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.1,0,-8.17739062765,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.25,0,-0.405812390496,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.5,6.50288922737,6.50288922737,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.75,8.49672873188,8.49672873188,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.9,10.57223626,10.57223626,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,false,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.975,11.4695696561,11.4695696561,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.025,1.7090174897,1.7090174897,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.1,1.77571562333,1.77571562333,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.25,4.21844036852,4.21844036852,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.5,5.3517212579,5.3517212579,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.75,5.75705475946,6.88685727945,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.9,6.38252518308,6.38252518308,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.975,6.88685727945,5.75705475946,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.025,0,-13.3183969188,33,2026-05-24,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.1,3.20067921615,3.20067921615,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.25,6.1881716254,6.1881716254,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.5,8.18533964215,8.18533964215,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.75,10.8923461273,10.8923461273,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.9,11.907998953,11.907998953,33,2026-05-24,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.975,14.8663378268,14.8663378268,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.025,1.16820437748,1.16820437748,33,2026-05-24,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.1,2.10001413885,2.10001413885,33,2026-05-24,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.25,5.93309002417,5.93309002417,33,2026-05-24,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.5,6.68927900452,6.68927900452,33,2026-05-24,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.75,8.73434840648,8.73434840648,33,2026-05-24,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.9,12.079751031,12.079751031,33,2026-05-24,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.975,12.4833510665,12.4833510665,33,2026-05-24,1,dvirnas-edm,0,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.025,0,-21.0889944497,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.1,0,-7.24673519016,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.25,1.59130931377,1.59130931377,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
@@ -167,27 +167,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.75,11.1798671658,11.1798671658,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.9,14.6549271087,14.6549271087,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-M,Region Skåne,quantile,0.975,17.5979708696,17.5979708696,33,2026-05-24,2,dvirnas-edm|gerlee-history,0,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.025,0.731799853745,1.36514325332,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.1,1.36514325332,0.731799853745,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.25,1.79602835124,1.79602835124,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.5,4.82160643654,4.82160643654,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.75,5.34839970095,5.38131069391,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.9,5.38131069391,5.34839970095,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.975,7.76056170099,7.76056170099,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.025,2.40870077475,2.75976362338,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.1,2.50765373041,2.40870077475,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.25,2.75976362338,2.50765373041,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.5,8.19146204206,8.25028290507,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.75,8.25028290507,8.19146204206,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.9,10.9589635541,10.9589635541,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.975,31.8025414189,31.8025414189,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.025,0,-5.95991499932,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.1,0,-2.47049864054,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.25,5.18622987685,5.18622987685,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.5,11.7230730915,12.4302737675,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.75,11.7748814716,11.7230730915,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.9,12.4302737675,11.7748814716,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.975,14.3733157084,14.3733157084,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.025,0.526779248783,0.526779248783,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.1,1.37633339731,1.37633339731,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.25,1.64411939202,1.64411939202,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.5,4.84778708148,4.84778708148,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.75,6.73812053357,7.41734794756,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.9,7.41734794756,6.73812053357,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.975,7.63234902246,7.63234902246,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.025,2.04393744452,2.04393744452,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.1,3.23958997368,3.23958997368,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.25,6.52449083693,6.52449083693,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.5,10.8853859477,10.8853859477,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.75,13.5048801097,13.5048801097,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.9,16.5856650023,16.5856650023,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.975,17.6484946682,17.6484946682,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.025,0,0,33,2026-05-31,1,dvirnas-edm,1,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.1,3.40786163586,3.40786163586,33,2026-05-31,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.25,7.09160435627,7.09160435627,33,2026-05-31,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.5,11.3958384351,11.3958384351,33,2026-05-31,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.75,14.1393620525,14.1393620525,33,2026-05-31,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.9,19.4425101452,19.4425101452,33,2026-05-31,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.975,28.322899552,28.322899552,33,2026-05-31,1,dvirnas-edm,0,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.025,0,-5.81830106863,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.1,0,-2.30288023984,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.25,5.47930744843,5.47930744843,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
@@ -195,27 +195,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.75,12.2418126301,12.1354185928,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.9,12.7495330938,12.2418126301,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-M,Region Skåne,quantile,0.975,14.9758024579,14.9758024579,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.025,0,-2.23265589009,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.1,1.25302642116,2.38591441683,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.25,1.55859729866,1.25302642116,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.5,2.38591441683,1.55859729866,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.75,6.0904297084,6.0904297084,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.9,8.39206811222,8.39206811222,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.975,10.9533870087,10.9533870087,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.025,3.47787756601,3.47787756601,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.1,5.0094544322,5.0094544322,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.25,5.01150048309,5.01150048309,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.5,5.85366637688,5.85366637688,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.75,10.7429219762,10.7429219762,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.9,17.1987075225,17.1987075225,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.975,30.6774663499,30.6774663499,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.025,0,1.53561328015,33,2026-06-07,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.1,1.36017017026,1.36017017026,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.25,1.53561328015,-0.402298632149,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.5,4.61781354693,4.61781354693,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.75,9.35333861958,9.35333861958,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.9,11.4383230886,11.4383230886,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.975,12.6180703948,12.6180703948,33,2026-06-07,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.025,1.71636879995,1.71636879995,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.1,2.1309862366,2.38591441683,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.25,2.38591441683,2.1309862366,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.5,5.75501943428,5.75501943428,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.75,9.16405110408,9.16405110408,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.9,9.21184728474,9.21184728474,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.975,10.9912634277,10.9912634277,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.025,4.26058761825,4.26058761825,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.1,5.46828991557,5.46828991557,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.25,9.25220363648,9.25220363648,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.5,12.1579852022,12.1579852022,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.75,18.7530120932,18.7530120932,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.9,21.6032100846,21.6032100846,33,2026-06-07,1,brannstrom-seirlovvader,0,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.975,22.6939515561,22.6939515561,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.025,1.16653056144,1.16653056144,33,2026-06-07,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.1,1.36017017026,1.36017017026,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.25,4.87767977089,4.87767977089,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.5,9.05841640075,9.05841640075,33,2026-06-07,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.75,13.8213209877,13.8213209877,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.9,17.6268064509,17.6268064509,33,2026-06-07,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.975,133.791137288,133.791137288,33,2026-06-07,1,dvirnas-edm,0,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.025,0.549203844298,2.0058107874,33,2026-06-07,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.1,1.88324675489,1.88324675489,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.25,2.0058107874,0.549203844298,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
@@ -223,27 +223,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.75,10.775715694,10.775715694,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.9,13.1695848562,13.1695848562,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-M,Region Skåne,quantile,0.975,14.7947127642,14.7947127642,33,2026-06-07,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.025,0,2,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.1,0.0761296997989,-1.15504616979,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.25,2,0.0761296997989,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.5,2.62907901622,2.62907901622,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.75,6.83969272861,6.83969272861,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.9,7.22165614015,7.22165614015,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.975,24.9202509022,24.9202509022,33,2026-05-17,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.025,2,2,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.1,5.16488810878,6,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.25,6,11,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.5,9.5447560176,5.16488810878,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.75,11,9.5447560176,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.9,13.4916844891,13.4916844891,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.975,30.7678478661,30.7678478661,33,2026-05-17,2,brannstrom-seirlovvader|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.025,0.669204326747,2,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.1,1.13644194199,6,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.25,2,0.669204326747,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.5,6,1.13644194199,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.75,7.81203406546,7.81203406546,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.9,12.3552852477,12.3552852477,33,2026-05-17,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.975,14.1322415672,14.1322415672,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.025,0,-0.357871741975,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.1,0,-0.265666745297,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.25,1.67952220887,1.67952220887,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.5,4.90488841063,4.90488841063,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.75,8.66698790585,8.66698790585,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.9,19.3691694105,20.3057001814,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.975,20.3057001814,19.3691694105,33,2026-05-17,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.025,3.60639956811,3.60639956811,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.1,4.30346398995,4.30346398995,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.25,7.52589543651,7.52589543651,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.5,11.7432255988,11.7432255988,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.75,14.7177461331,14.7177461331,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.9,19.7079471092,19.7079471092,33,2026-05-17,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.975,28.2397774678,28.2397774678,33,2026-05-17,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.025,0.411947451687,0.469560404414,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.1,0.469560404414,0.411947451687,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.25,2.04366343231,2.04366343231,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.5,5.04716130798,5.04716130798,33,2026-05-17,1,dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.75,10.9071300844,10.9071300844,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.9,24.2192275213,24.2192275213,33,2026-05-17,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.975,281,281,33,2026-05-17,1,dvirnas-edm,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.025,1.68451308397,2,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.1,2,6,33,2026-05-17,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.25,2.2224473986,1.68451308397,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
@@ -251,27 +251,27 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.75,8.89893803461,8.89893803461,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.9,13.4380390194,13.4380390194,33,2026-05-17,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
 2026-10-25,2026-10-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,quantile,0.975,15.6207880668,15.6207880668,33,2026-05-17,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.025,0,2,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.1,2,6,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.25,6,-0.508285240076,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.5,7.19740959408,7.19740959408,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.75,11.6126714503,11.6126714503,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.9,15.0132655073,15.1324304144,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.975,15.1324304144,15.0132655073,33,2026-05-24,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.025,2,2,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.1,6,6,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.25,7.10341991338,11,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.5,11,7.10341991338,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.75,12.2332328725,12.2332328725,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.9,25.0271107241,30.1972098814,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.975,30.1972098814,25.0271107241,33,2026-05-24,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.025,1.76122110885,2,33,2026-05-24,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.1,2,6,33,2026-05-24,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.25,2.32011695903,1.76122110885,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.5,6,2.32011695903,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.75,13.0292823953,13.0292823953,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.9,17.9512681663,19.2709118625,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.975,19.2709118625,17.9512681663,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.025,0,-1.07112863949,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.1,0.891599206418,0.891599206418,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.25,1.94051291211,1.94051291211,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.5,8.51820789683,8.51820789683,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.75,14.2717005455,14.2717005455,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.9,26.0161261252,35.1492996112,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.975,35.1492996112,26.0161261252,33,2026-05-24,2,brannstrom-seirlovvader|dvirnas-edm,0,true,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.025,1.95177648003,1.95177648003,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.1,3.84793678048,3.84793678048,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.25,10.4342361878,10.4342361878,33,2026-05-24,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.5,17.3056188452,17.3056188452,33,2026-05-24,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.75,25.7286533273,25.7286533273,33,2026-05-24,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.9,43.0159617859,43.0159617859,33,2026-05-24,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.975,44.4013971573,44.4013971573,33,2026-05-24,1,brannstrom-seirlovvader,0,false,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.025,0,-1.87926017723,33,2026-05-24,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.1,3.11957856369,6,33,2026-05-24,1,dvirnas-edm,1,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.25,6,3.11957856369,33,2026-05-24,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.5,7.891522435,7.891522435,33,2026-05-24,1,dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.75,15.180448081,15.180448081,33,2026-05-24,1,dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.9,37.2590469685,37.2590469685,33,2026-05-24,1,dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-18,2026-10-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.975,240.262913083,240.262913083,33,2026-05-24,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.025,1.97037351,2,33,2026-05-24,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.1,2,6,33,2026-05-24,2,dvirnas-edm|gerlee-history,1,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.25,2.49577473422,1.97037351,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
@@ -279,55 +279,55 @@ reference_date,target_end_date,target,horizon,location,location_name,output_type
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.75,13.1884006753,13.1884006753,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.9,17.9450910072,19.4654963091,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,quantile,0.975,19.4654963091,17.9450910072,33,2026-05-24,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.025,0,-2.31157714435,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.1,0,-4.7124555627,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.25,0,-4.8370905354,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.5,7.54048634392,7.54048634392,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.1,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.75,17.4650440937,17.4650440937,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.9,23.0529683303,24.0349383866,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.975,24.0349383866,23.0529683303,33,2026-05-31,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.025,0,-25.9846281858,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.1,0,-10.7803923232,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.25,0,-10.1426313745,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.5,7.78549724635,7.78549724635,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.75,12.3698913429,12.3698913429,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.9,19.3818026647,23.081872141,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.975,23.081872141,19.3818026647,33,2026-05-31,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.025,0,-25.2023983445,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.1,0,-21.7866439685,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.25,0,-10.5048324135,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.5,1.27548373649,1.27548373649,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.75,14.1204564118,14.1204564118,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.9,18.7779422872,23.7779637684,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.975,23.7779637684,18.7779422872,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.025,0,-3.89355647451,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.1,0,-0.34571413189,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.25,1.83366472702,1.83366472702,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.5,6.69347808175,6.69347808175,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.75,19.9799268707,19.9799268707,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.9,45.1643746383,45.1643746383,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.975,74.6666073419,74.6666073419,33,2026-05-31,2,brannstrom-seirlovvader|dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.025,0,-3.83533060924,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.1,5.34024667127,5.34024667127,33,2026-05-31,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.25,9.63797482076,9.63797482076,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.5,19.5638503533,19.5638503533,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.75,37.1329242389,37.1329242389,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.9,109.445300952,109.445300952,33,2026-05-31,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-10-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.975,281,281,33,2026-05-31,1,brannstrom-seirlovvader,1,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.025,0,2,33,2026-05-31,1,dvirnas-edm,1,true,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.1,0.221882917853,0.221882917853,33,2026-05-31,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.25,2,-0.662887565192,33,2026-05-31,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.5,4.00714552015,4.00714552015,33,2026-05-31,1,dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.75,16.9293684267,16.9293684267,33,2026-05-31,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.9,41.8653821746,41.8653821746,33,2026-05-31,1,dvirnas-edm,0,true,2026-08-25T00:00:00Z
+2026-10-18,2026-11-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.975,74.6609047288,74.6609047288,33,2026-05-31,1,dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.025,0,-24.6277740422,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.1,0,-21.2220423143,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.01,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.25,0,-9.9547676584,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.5,1.92675506886,1.92675506886,33,2026-05-31,2,dvirnas-edm|gerlee-history,0.001,true,2026-08-25T00:00:00Z
+2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.5,1.92675506886,1.92675506886,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.75,14.9141313838,14.9141313838,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.9,20.0320006954,24.7439766506,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
 2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,quantile,0.975,24.7439766506,20.0320006954,33,2026-05-31,2,dvirnas-edm|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.025,0,-5.52037466446,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.1,0,-8.24455929426,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.25,0,-0.838896066168,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.1,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.5,9.35765769359,9.35765769359,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.1,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.75,20.3513578349,20.3513578349,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.9,30.1684781062,30.1684781062,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.975,44.5232373619,44.5232373619,33,2026-06-07,3,brannstrom-seirlovvader|dvirnas-edm|gerlee-history,0.001,false,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.025,0,-3.70590194207,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.1,0,-18.7401626942,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.25,0.673573184429,0.673573184429,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.1,true,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.5,3.18587097857,3.18587097857,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.75,14.8066197957,14.8066197957,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.001,true,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.9,23.4281813574,28.0084781693,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0.01,true,2026-08-25T00:00:00Z
-2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.975,28.0084781693,23.4281813574,33,2026-06-07,2,brannstrom-seirlovvader|gerlee-history,0,true,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.025,0,-4.38033538739,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.1,0,-21.3052649894,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.25,0,-8.40257267869,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.5,3.73170124796,3.73170124796,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.75,15.0573667406,15.0573667406,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.9,26.2672582308,26.2672582308,33,2026-06-07,2,dvirnas-edm|gerlee-history,0,false,2026-08-25T00:00:00Z
-2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.975,52.2301345155,52.2301345155,33,2026-06-07,2,dvirnas-edm|gerlee-history,0,false,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.025,0,0.299492768005,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.1,0.299492768005,-1.82856998975,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.25,2.98097745707,2.98097745707,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.1,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.5,10.972239124,10.972239124,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.01,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.75,26.718102776,26.718102776,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.9,48.0415802031,48.0415802031,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0,true,2026-08-25T00:00:00Z
+2026-10-04,2026-10-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.975,81.7385762682,81.7385762682,33,2026-06-07,2,brannstrom-seirlovvader|dvirnas-edm,0.001,true,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.025,0,-10.2855781864,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.1,8.21669012708,8.21669012708,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.25,12.3074789064,12.3074789064,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.5,27.3439964965,27.3439964965,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.75,91.3177007387,91.3177007387,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.9,155.951697824,155.951697824,33,2026-06-07,1,brannstrom-seirlovvader,0.01,false,2026-08-25T00:00:00Z
+2026-10-11,2026-11-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.975,253.166170412,253.166170412,33,2026-06-07,1,brannstrom-seirlovvader,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.025,0,-4.38033538739,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.1,0,-3.58882528726,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.25,2.77236916127,2.77236916127,33,2026-06-07,1,dvirnas-edm,0.1,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.5,5.88818073296,5.88818073296,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.75,16.4118639839,16.4118639839,33,2026-06-07,1,dvirnas-edm,0.001,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.9,33.9739878653,33.9739878653,33,2026-06-07,1,dvirnas-edm,0,false,2026-08-25T00:00:00Z
+2026-10-18,2026-11-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.975,77.2893749651,77.2893749651,33,2026-06-07,1,dvirnas-edm,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.025,0,-3.57359978795,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.1,0,-21.2842409632,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
 2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,quantile,0.25,0,-8.38119599564,33,2026-06-07,2,dvirnas-edm|gerlee-history,0.01,false,2026-08-25T00:00:00Z
