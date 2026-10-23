@@ -41,7 +41,7 @@ Vyn visar de punktprognoser som har publicerats för innevarande säsong och en 
 </div>
 ```
 
-QRA:n anpassas till de komponentmodeller som finns för den valda omgången. Antalet komponentmodeller visas under diagrammet. Vecka 40–42 är reproducerade backfills; från vecka 43 körs `gerlee-history` i det ordinarie veckoflödet.
+QRA:n anpassas till de komponentmodeller som finns för den valda omgången. Antalet komponentmodeller visas under diagrammet. För `gerlee-history` visas endast den prospektiva prognosomgången med prognosdatum 25 oktober 2026.
 
 Senast publicerad målserie finns i [hubbens datafil](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/target-data/time-series.csv).
 
