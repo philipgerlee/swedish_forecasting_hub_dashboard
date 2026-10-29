@@ -71,3 +71,15 @@ dvirnas-edm,2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra
 gerlee-history,2026-10-25,2026-11-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,4.472754360773854,gerlee-history/2026-10-25-gerlee-history.csv
 dvirnas-edm,2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,7.006118789550674,dvirnas-edm/2026-10-25-dvirnas-edm.csv
 gerlee-history,2026-10-25,2026-11-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,4.457837324443439,gerlee-history/2026-10-25-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-01,weekly incident influenza cases,0,SE,Sverige,34.89082870640286,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-08,weekly incident influenza cases,1,SE,Sverige,50.824817004604384,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-15,weekly incident influenza cases,2,SE,Sverige,62.93997654190168,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-22,weekly incident influenza cases,3,SE,Sverige,119.21724235899582,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-01,weekly incident influenza cases,0,SE-M,Region Skåne,3.367452639748595,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-08,weekly incident influenza cases,1,SE-M,Region Skåne,3.677794954656211,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-15,weekly incident influenza cases,2,SE-M,Region Skåne,5.088472922321885,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-22,weekly incident influenza cases,3,SE-M,Region Skåne,8.276766827304295,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-01,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,3.8200932776734335,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,4.570395190334611,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,4.5350559344605905,gerlee-history/2026-11-01-gerlee-history.csv
+gerlee-history,2026-11-01,2026-11-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,10.13442745804201,gerlee-history/2026-11-01-gerlee-history.csv
