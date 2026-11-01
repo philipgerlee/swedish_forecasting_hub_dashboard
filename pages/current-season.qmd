@@ -41,10 +41,10 @@ Vyn visar de punktprognoser som har publicerats för innevarande säsong och en 
 </div>
 ```
 
-QRA:n anpassas till de komponentmodeller som finns för den valda omgången. Antalet komponentmodeller visas under diagrammet. För `gerlee-history` visas endast den prospektiva prognosomgången med prognosdatum 25 oktober 2026.
+QRA:n anpassas till de komponentmodeller som finns för den valda omgången. Antalet komponentmodeller visas under diagrammet. Alla validerade prognoser som har mergeats till hubbens `main`-gren visas automatiskt.
 
 Senast publicerad målserie finns i [hubbens datafil](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/target-data/time-series.csv).
 
 ```{=html}
-<script type="module" src="resources/forecast-view.js?v=20261023-1"></script>
+<script type="module" src="resources/forecast-view.js?v=20261101-1"></script>
 ```
