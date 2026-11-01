@@ -1,4 +1,4 @@
-const DATA_ROOT = "https://raw.githubusercontent.com/philipgerlee/swedish_forecasting_hub_dashboard/ptc/data";
+const DATA_ROOT = "https://raw.githubusercontent.com/philipgerlee/swedish_forecasting_hub/dashboard-data";
 
 const LOCATIONS = {
   SE: "Sverige",

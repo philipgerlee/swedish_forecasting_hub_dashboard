@@ -42,5 +42,5 @@ Varje prognos har återskapats med den information som var tillgänglig vid resp
 Den svarta linjen visar det frysta utfallet. Punktmodellernas linjer visar horisont 0–3 från valt prognosdatum. QRA:s median visas som en mörkblå linje och osäkerheten som tre skuggade intervall.
 
 ```{=html}
-<script type="module" src="resources/forecast-view.js?v=20261023-1"></script>
+<script type="module" src="resources/forecast-view.js?v=20261101-1"></script>
 ```

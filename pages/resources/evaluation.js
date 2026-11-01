@@ -1,4 +1,4 @@
-const source = "https://raw.githubusercontent.com/philipgerlee/swedish_forecasting_hub_dashboard/ptc/data/probabilistic-comparison-by-location-horizon.csv";
+const source = "https://raw.githubusercontent.com/philipgerlee/swedish_forecasting_hub/dashboard-data/probabilistic-comparison-by-location-horizon.csv";
 
 function parseCsv(text) {
   const lines = text.trim().split(/\r?\n/);
