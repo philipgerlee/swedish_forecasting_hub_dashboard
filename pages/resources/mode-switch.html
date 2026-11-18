@@ -59,8 +59,9 @@ function initializeHubInterface() {
     "about.html": copy.about
   };
   document.querySelectorAll(".navbar a.nav-link, .navbar a.navbar-brand").forEach((link) => {
-    const href = (link.getAttribute("href") || "").replace(/^\.\//, "");
-    const swedishHref = href.replace(/-en\.html$/, ".html");
+    const linkedPath = new URL(link.href, location.href).pathname;
+    const linkedFile = linkedPath.endsWith("/") ? "index.html" : linkedPath.split("/").pop();
+    const swedishHref = linkedFile.replace(/-en\.html$/, ".html");
     if (!pageNames.has(swedishHref)) return;
     link.setAttribute("href", english ? swedishHref.replace(/\.html$/, "-en.html") : swedishHref);
     const active = swedishHref === baseName;
