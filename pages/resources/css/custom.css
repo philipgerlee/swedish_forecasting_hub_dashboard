@@ -37,18 +37,18 @@
   flex: 0 0 auto;
   margin: 0 .8rem 0 auto;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, .65);
+  border: 1px solid var(--bs-navbar-color);
   border-radius: 999px;
 }
 .hub-language-switch a {
-  color: rgba(255, 255, 255, .85);
+  color: var(--bs-navbar-color);
   font-size: .78rem;
   font-weight: 700;
   line-height: 1;
   padding: .38rem .55rem;
   text-decoration: none;
 }
-.hub-language-switch a:hover { color: white; }
+.hub-language-switch a:hover { color: var(--bs-navbar-hover-color); }
 .hub-language-switch a.active { background: white; color: var(--hub-blue); }
 .evaluation-table { overflow-x: auto; }
 .evaluation-table table { width: 100%; }
