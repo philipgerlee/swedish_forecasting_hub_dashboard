@@ -11,9 +11,6 @@ pages:
   - text: "Utvärdering"
     icon: table
     href: evaluation.qmd
-  - text: "Modeller"
-    icon: boxes
-    href: models.qmd
   - text: "Om hubben"
     icon: info-circle
     href: about.md

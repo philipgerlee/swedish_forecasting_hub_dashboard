@@ -7,6 +7,8 @@
 
 .navbar { border-bottom: 1px solid var(--hub-border); }
 .navbar-brand { font-weight: 650; }
+#quarto-search { display: none !important; }
+#navbarCollapse .navbar-nav.me-auto > .nav-item:first-child { display: none; }
 .demo-banner, .current-banner {
   border-left: .35rem solid var(--hub-blue);
   border-radius: .35rem;
