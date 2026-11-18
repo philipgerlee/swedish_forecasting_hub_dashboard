@@ -30,6 +30,24 @@
 .hub-mode-switch .mode-options { display: inline-flex; border: 1px solid #94a3b8; border-radius: 999px; overflow: hidden; }
 .hub-mode-switch a { color: #334155; padding: .25rem .85rem; text-decoration: none; }
 .hub-mode-switch a.active { background: var(--hub-blue); color: white; }
+.hub-language-switch {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin: 0 .8rem 0 auto;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .65);
+  border-radius: 999px;
+}
+.hub-language-switch a {
+  color: rgba(255, 255, 255, .85);
+  font-size: .78rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: .38rem .55rem;
+  text-decoration: none;
+}
+.hub-language-switch a:hover { color: white; }
+.hub-language-switch a.active { background: white; color: var(--hub-blue); }
 .evaluation-table { overflow-x: auto; }
 .evaluation-table table { width: 100%; }
 .evaluation-table th { background: #f1f5f9; white-space: nowrap; }
@@ -107,6 +125,7 @@
 .forecast-date-navigation span { color: #475569; min-width: 12rem; text-align: center; }
 @media (max-width: 576px) {
   .hub-mode-switch { align-items: flex-start; flex-direction: column; }
+  .hub-language-switch { margin: .6rem 0; }
   .point-controls, .point-model-checkboxes, .forecast-controls, .forecast-model-checkboxes { grid-template-columns: 1fr; }
   .forecast-model-heading { align-items: flex-start; flex-direction: column; }
   #point-forecast-chart { min-height: 28rem; }

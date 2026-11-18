@@ -1,4 +1,18 @@
 const source = "https://raw.githubusercontent.com/philipgerlee/swedish_forecasting_hub/dashboard-data/probabilistic-comparison-by-location-horizon.csv";
+const language = location.pathname.endsWith("-en.html") ? "en" : "sv";
+const copy = language === "en" ? {
+  locale: "en-GB",
+  locations: { SE: "Sweden", "SE-M": "Skåne Region", "SE-O": "Västra Götaland Region" },
+  headers: ["Location", "Horizon", "n", "QRA WIS", "Baseline WIS", "WIS skill"],
+  updated: "Last updated from frozen outcome data",
+  error: "The results table could not be loaded. Please use the link to the results file below."
+} : {
+  locale: "sv-SE",
+  locations: { SE: "Sverige", "SE-M": "Region Skåne", "SE-O": "Västra Götalandsregionen" },
+  headers: ["Plats", "Horisont", "n", "QRA WIS", "Baseline WIS", "WIS-färdighet"],
+  updated: "Senast uppdaterad från fryst utfallsdata",
+  error: "Resultattabellen kunde inte läsas in. Använd länken till resultatfilen nedan."
+};
 
 function parseCsv(text) {
   const lines = text.trim().split(/\r?\n/);
@@ -7,7 +21,7 @@ function parseCsv(text) {
 }
 
 function number(value, digits = 1) {
-  return new Intl.NumberFormat("sv-SE", { maximumFractionDigits: digits }).format(Number(value));
+  return new Intl.NumberFormat(copy.locale, { maximumFractionDigits: digits }).format(Number(value));
 }
 
 async function renderEvaluation() {
@@ -21,13 +35,13 @@ async function renderEvaluation() {
     const body = rows.map((row) => {
       const skill = Number(row.wis_skill);
       const klass = skill >= 0 ? "skill-positive" : "skill-negative";
-      return `<tr><td>${row.location_name}</td><td>${row.horizon}</td><td>${row.n}</td><td>${number(row.mean_qra_wis)}</td><td>${number(row.mean_baseline_wis)}</td><td class="${klass}">${number(skill * 100)} %</td></tr>`;
+      return `<tr><td>${copy.locations[row.location] || row.location_name}</td><td>${row.horizon}</td><td>${row.n}</td><td>${number(row.mean_qra_wis)}</td><td>${number(row.mean_baseline_wis)}</td><td class="${klass}">${number(skill * 100)} %</td></tr>`;
     }).join("");
     root.className = "evaluation-table";
-    root.innerHTML = `<table><thead><tr><th>Plats</th><th>Horisont</th><th>n</th><th>QRA WIS</th><th>Baseline WIS</th><th>WIS-färdighet</th></tr></thead><tbody>${body}</tbody></table>`;
-    status.textContent = `Senast uppdaterad från fryst utfallsdata: ${rows[0].outcome_data_version.slice(0, 10)}.`;
+    root.innerHTML = `<table><thead><tr>${copy.headers.map((header) => `<th>${header}</th>`).join("")}</tr></thead><tbody>${body}</tbody></table>`;
+    status.textContent = `${copy.updated}: ${rows[0].outcome_data_version.slice(0, 10)}.`;
   } catch (error) {
-    status.textContent = "Resultattabellen kunde inte läsas in. Använd länken till resultatfilen nedan.";
+    status.textContent = copy.error;
     console.error(error);
   }
 }

@@ -1,0 +1,50 @@
+---
+title: "Current influenza season 2026/27"
+---
+
+::: {.current-banner}
+**Current mode**
+
+This view presents the point forecasts published for the current season and a probabilistic QRA forecast trained on the retrospective results from 2025/26.
+:::
+
+```{=html}
+<div class="forecast-explorer" data-forecast-mode="current">
+<div class="forecast-controls" aria-label="Current forecast selections">
+<div class="forecast-control">
+<label for="forecast-location">Location</label>
+<select id="forecast-location" class="form-select" disabled></select>
+</div>
+<div class="forecast-control">
+<label for="forecast-reference-date">Forecast date</label>
+<select id="forecast-reference-date" class="form-select" disabled></select>
+</div>
+</div>
+<div class="forecast-model-controls" aria-label="Select models">
+<div class="forecast-model-heading">
+<strong>Forecasts shown</strong>
+<span>
+<button id="forecast-select-all" type="button" class="btn btn-sm btn-outline-secondary">Select all</button>
+<button id="forecast-clear-all" type="button" class="btn btn-sm btn-outline-secondary">Clear point models</button>
+</span>
+</div>
+<label class="forecast-ensemble-option"><input id="forecast-qra" type="checkbox" checked> <span class="forecast-model-swatch ensemble"></span>QRA ensemble with 50%, 80% and 95% prediction intervals</label>
+<div id="forecast-model-checkboxes" class="forecast-model-checkboxes"></div>
+</div>
+<div id="forecast-status" class="small-note" role="status">Loading forecasts …</div>
+<div class="forecast-date-navigation" aria-label="Change forecast date">
+<button id="forecast-date-earlier" type="button" class="btn btn-outline-secondary">← Earlier</button>
+<span id="forecast-date-position" aria-live="polite"></span>
+<button id="forecast-date-later" type="button" class="btn btn-outline-secondary">Later →</button>
+</div>
+<div id="forecast-chart" aria-label="Current point forecasts and probabilistic ensemble"></div>
+</div>
+```
+
+The QRA is fitted to the component models available for the selected round. The number of component models is shown beneath the chart. All validated forecasts merged into the hub's `main` branch are displayed automatically.
+
+The latest published target time series is available in the [hub data file](https://github.com/philipgerlee/swedish_forecasting_hub/blob/main/target-data/time-series.csv).
+
+```{=html}
+<script type="module" src="resources/forecast-view.js?v=20261118-1"></script>
+```

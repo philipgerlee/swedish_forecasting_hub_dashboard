@@ -21,4 +21,4 @@ Täckningsgraderna för 50 %, 80 % och 95 % finns i den fullständiga [resultatf
 
 WIS belönar träffsäkra prognoser men bestraffar samtidigt onödigt breda prognosintervall. Därför behövs ingen separat metrik för intervallbredd. Resultaten från en enskild retrospektiv säsong ska tolkas försiktigt och är inte i sig belägg för generell modellprestanda.
 
-<script type="module" src="resources/evaluation.js"></script>
+<script type="module" src="resources/evaluation.js?v=20261118-1"></script>
