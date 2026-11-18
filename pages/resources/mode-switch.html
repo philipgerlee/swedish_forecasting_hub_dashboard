@@ -97,14 +97,18 @@ function initializeHubInterface() {
     if (navbarRight) navbarRight.before(languageSwitch);
     else if (navbarContainer) navbarContainer.append(languageSwitch);
   }
+  const referenceNavLink = document.querySelector("#navbarCollapse .navbar-nav.me-auto .nav-link");
+  const navLinkColor = referenceNavLink ? getComputedStyle(referenceNavLink).color : "";
   document.querySelectorAll("[data-hub-language]").forEach((link) => {
     const targetLanguage = link.dataset.hubLanguage;
     link.setAttribute("href", targetLanguage === "en" ? englishName : baseName);
     const active = targetLanguage === language;
     link.classList.toggle("active", active);
+    link.style.color = active ? "" : navLinkColor;
     if (active) link.setAttribute("aria-current", "true");
     else link.removeAttribute("aria-current");
   });
+  if (languageSwitch && navLinkColor) languageSwitch.style.borderColor = navLinkColor;
 }
 
 if (document.readyState === "loading") {
