@@ -1,0 +1,8 @@
+---
+title: "Point forecasts"
+---
+
+The point forecasts have moved to the combined forecast views, where they can be compared with the QRA ensemble:
+
+- [Retrospective forecasts 2025/26](retrospective-en.html)
+- [Current influenza season](current-season-en.html)

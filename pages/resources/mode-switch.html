@@ -5,14 +5,104 @@
     <a data-hub-mode="current" href="current-season.html">Aktuell säsong</a>
   </span>
 </div>
+<div class="hub-language-switch" role="group" aria-label="Välj språk">
+  <a data-hub-language="sv" href="#" lang="sv" hreflang="sv">SE</a>
+  <a data-hub-language="en" href="#" lang="en" hreflang="en">EN</a>
+</div>
 <script>
 function initializeHubInterface() {
+  const english = location.pathname.endsWith("-en.html");
+  const language = english ? "en" : "sv";
+  const fileName = location.pathname.split("/").pop() || "index.html";
+  const baseName = fileName.replace(/-en\.html$/, ".html");
+  const englishName = baseName.replace(/\.html$/, "-en.html");
+  const pageNames = new Set([
+    "index.html", "retrospective.html", "current-season.html",
+    "evaluation.html", "models.html", "about.html", "point-forecasts.html"
+  ]);
+  const copy = english ? {
+    title: "Swedish Influenza Forecast Hub",
+    navigation: "Toggle navigation",
+    home: "Swedish Influenza Forecast Hub",
+    retrospective: "Retrospective 2025/26",
+    current: "Current season",
+    evaluation: "Evaluation",
+    models: "Models",
+    about: "About the hub",
+    modeLabel: "View",
+    languageLabel: "Select language"
+  } : {
+    title: "Nationella prognoshubben för influensa",
+    navigation: "Skifta navigering",
+    home: "Nationella prognoshubben för influensa",
+    retrospective: "Retrospektivt 2025/26",
+    current: "Aktuell säsong",
+    evaluation: "Utvärdering",
+    models: "Modeller",
+    about: "Om hubben",
+    modeLabel: "Visningsläge",
+    languageLabel: "Välj språk"
+  };
+
+  document.documentElement.lang = english ? "en-GB" : "sv-SE";
+  if (english) document.title = document.title.replace("Nationella prognoshubben för influensa", copy.title);
+  document.querySelectorAll(".navbar-title").forEach((node) => { node.textContent = copy.title; });
+  const toggler = document.querySelector(".navbar-toggler");
+  if (toggler) toggler.setAttribute("aria-label", copy.navigation);
+
+  const navPages = {
+    "index.html": copy.home,
+    "retrospective.html": copy.retrospective,
+    "current-season.html": copy.current,
+    "evaluation.html": copy.evaluation,
+    "models.html": copy.models,
+    "about.html": copy.about
+  };
+  document.querySelectorAll(".navbar a.nav-link, .navbar a.navbar-brand").forEach((link) => {
+    const href = (link.getAttribute("href") || "").replace(/^\.\//, "");
+    const swedishHref = href.replace(/-en\.html$/, ".html");
+    if (!pageNames.has(swedishHref)) return;
+    link.setAttribute("href", english ? swedishHref.replace(/\.html$/, "-en.html") : swedishHref);
+    const active = swedishHref === baseName;
+    link.classList.toggle("active", active);
+    if (active) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+    const text = link.querySelector(".menu-text");
+    if (text) text.textContent = navPages[swedishHref];
+  });
+
   let current = null;
-  if (location.pathname.endsWith("current-season.html")) current = "current";
-  if (location.pathname.endsWith("retrospective.html")) current = "retrospective";
+  if (baseName === "current-season.html") current = "current";
+  if (baseName === "retrospective.html") current = "retrospective";
+  const modeSwitch = document.querySelector(".hub-mode-switch");
+  if (modeSwitch) modeSwitch.setAttribute("aria-label", english ? "Select view" : "Välj visningsläge");
+  const modeLabel = document.querySelector(".mode-label");
+  if (modeLabel) modeLabel.textContent = copy.modeLabel;
   document.querySelectorAll("[data-hub-mode]").forEach((link) => {
-    link.classList.toggle("active", link.dataset.hubMode === current);
-    if (link.dataset.hubMode === current) link.setAttribute("aria-current", "page");
+    const mode = link.dataset.hubMode;
+    link.textContent = mode === "current" ? copy.current : copy.retrospective;
+    const target = mode === "current" ? "current-season.html" : "retrospective.html";
+    link.setAttribute("href", english ? target.replace(/\.html$/, "-en.html") : target);
+    link.classList.toggle("active", mode === current);
+    if (mode === current) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
+
+  const languageSwitch = document.querySelector(".hub-language-switch");
+  if (languageSwitch) {
+    languageSwitch.setAttribute("aria-label", copy.languageLabel);
+    const navbarRight = document.querySelector("#navbarCollapse > .navbar-nav.ms-auto");
+    const navbarContainer = document.querySelector(".navbar-container");
+    if (navbarRight) navbarRight.before(languageSwitch);
+    else if (navbarContainer) navbarContainer.append(languageSwitch);
+  }
+  document.querySelectorAll("[data-hub-language]").forEach((link) => {
+    const targetLanguage = link.dataset.hubLanguage;
+    link.setAttribute("href", targetLanguage === "en" ? englishName : baseName);
+    const active = targetLanguage === language;
+    link.classList.toggle("active", active);
+    if (active) link.setAttribute("aria-current", "true");
+    else link.removeAttribute("aria-current");
   });
 }
 

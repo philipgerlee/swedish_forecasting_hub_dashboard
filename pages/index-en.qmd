@@ -1,0 +1,28 @@
+---
+title: "Swedish Influenza Forecast Hub"
+---
+
+::: {.demo-banner}
+**Retrospective mode · 2025/26 influenza season**
+
+This dashboard presents forecasts from the models participating in the hub. The retrospective forecasts were generated as if each model had access only to the information available on its respective forecast date.
+:::
+
+## Comparable forecasts
+
+The hub collects forecasts in a common format and presents both individual models and a probabilistic QRA ensemble. The forecasts cover Sweden, the Skåne Region and the Västra Götaland Region, at horizons 0–3.
+
+::: {.home-actions}
+[View retrospective forecasts](retrospective-en.html){.btn .btn-primary role="button"}
+[View the current season](current-season-en.html){.btn .btn-outline-primary role="button"}
+[View the evaluation](evaluation-en.html){.btn .btn-outline-primary role="button"}
+:::
+
+## What is shown?
+
+- **Individual models:** point forecasts from the models included in the hub.
+- **QRA ensemble:** a regularised probabilistic ensemble of the available models.
+- **Probabilistic baseline:** a three-week moving average with uncertainty estimated from historical data.
+- **Observed data:** frozen weekly values from the Public Health Agency of Sweden's Folkhälsodata database.
+
+The hub is a research pilot run by the Department of Mathematical Sciences at Chalmers University of Technology.

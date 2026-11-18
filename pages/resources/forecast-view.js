@@ -1,10 +1,51 @@
 const DATA_ROOT = "https://raw.githubusercontent.com/philipgerlee/swedish_forecasting_hub/dashboard-data";
+const LANGUAGE = location.pathname.endsWith("-en.html") ? "en" : "sv";
 
-const LOCATIONS = {
-  SE: "Sverige",
-  "SE-M": "Region Skåne",
-  "SE-O": "Västra Götalandsregionen"
+const COPY = LANGUAGE === "en" ? {
+  locale: "en-GB",
+  locations: { SE: "Sweden", "SE-M": "Skåne Region", "SE-O": "Västra Götaland Region" },
+  week: "week",
+  noForecast: "No forecast for the selected date",
+  noForecastSuffix: "no forecast for this date",
+  cases: "cases",
+  horizon: "Horizon",
+  outcome: "Observed",
+  current: "Current",
+  retrospective: "Retrospective",
+  from: "forecasts from",
+  xAxis: "Week",
+  yAxis: "Reported influenza cases",
+  qraComponents: (count) => ` The QRA uses ${count} component model${count === 1 ? "" : "s"}.`,
+  noQra: " No QRA is available for this round.",
+  qraHidden: " The QRA is hidden.",
+  status: (season, available, shown) => `${season} models have submitted forecasts this season; ${available} have a forecast for the selected date and ${shown} are shown.`,
+  datePosition: (position, total) => `Forecast date ${position} of ${total}`,
+  loadError: "Forecast data could not be loaded. Please try again in a moment.",
+  httpFor: "for"
+} : {
+  locale: "sv-SE",
+  locations: { SE: "Sverige", "SE-M": "Region Skåne", "SE-O": "Västra Götalandsregionen" },
+  week: "vecka",
+  noForecast: "Ingen prognos för valt datum",
+  noForecastSuffix: "ingen prognos detta datum",
+  cases: "fall",
+  horizon: "Horisont",
+  outcome: "Utfall",
+  current: "Aktuella",
+  retrospective: "Retrospektiva",
+  from: "prognoser från",
+  xAxis: "Vecka",
+  yAxis: "Rapporterade influensafall",
+  qraComponents: (count) => ` QRA:n bygger på ${count} komponentmodell${count === 1 ? "" : "er"}.`,
+  noQra: " Ingen QRA finns för denna omgång.",
+  qraHidden: " QRA:n är dold.",
+  status: (season, available, shown) => `${season} modeller har lämnat prognoser denna säsong; ${available} har prognos för valt datum och ${shown} visas.`,
+  datePosition: (position, total) => `Prognosdatum ${position} av ${total}`,
+  loadError: "Prognosdata kunde inte läsas in. Försök igen om en stund.",
+  httpFor: "för"
 };
+
+const LOCATIONS = COPY.locations;
 
 const COLORS = [
   "#2563eb", "#16a34a", "#ea580c", "#9333ea", "#db2777",
@@ -60,13 +101,13 @@ function isoWeek(dateString) {
 
 function displayDate(dateString) {
   const value = new Date(`${dateString}T00:00:00Z`);
-  const formatted = new Intl.DateTimeFormat("sv-SE", {
+  const formatted = new Intl.DateTimeFormat(COPY.locale, {
     day: "numeric",
     month: "short",
     year: "numeric",
     timeZone: "UTC"
   }).format(value);
-  return `${formatted} (vecka ${isoWeek(dateString)})`;
+  return `${formatted} (${COPY.week} ${isoWeek(dateString)})`;
 }
 
 function selectedModels() {
@@ -115,7 +156,7 @@ async function initializeForecastView() {
       fetch(`${DATA_ROOT}/models.json`, { cache: "no-store" })
     ]);
     for (const response of [pointResponse, qraResponse, outcomeResponse, modelResponse]) {
-      if (!response.ok) throw new Error(`HTTP ${response.status} för ${response.url}`);
+      if (!response.ok) throw new Error(`HTTP ${response.status} ${COPY.httpFor} ${response.url}`);
     }
     const pointRows = parseCsv(await pointResponse.text());
     const qraRows = parseCsv(await qraResponse.text());
@@ -173,10 +214,10 @@ async function initializeForecastView() {
         const modelId = option.dataset.modelId;
         const available = availableModels.has(modelId);
         option.classList.toggle("forecast-model-unavailable", !available);
-        option.title = available ? "" : "Ingen prognos för valt datum";
+        option.title = available ? "" : COPY.noForecast;
         option.querySelector(".forecast-model-name").textContent = available
           ? (modelNames.get(modelId) || modelId)
-          : `${modelNames.get(modelId) || modelId} – ingen prognos detta datum`;
+          : `${modelNames.get(modelId) || modelId} – ${COPY.noForecastSuffix}`;
       });
 
       if (selectedQra && selectedQraRows.length) {
@@ -196,7 +237,7 @@ async function initializeForecastView() {
           name: "QRA-median",
           line: { color: "#075985", width: 4 },
           marker: { color: "#075985", size: 8 },
-          hovertemplate: "%{x}<br>QRA-median: %{y:.1f} fall<extra></extra>"
+          hovertemplate: `%{x}<br>QRA median: %{y:.1f} ${COPY.cases}<extra></extra>`
         });
       }
 
@@ -218,7 +259,7 @@ async function initializeForecastView() {
           name: label,
           line: { color: modelColors.get(modelId), width: 2, dash: "dash" },
           marker: { color: modelColors.get(modelId), size: 8, symbol: "circle-open" },
-          hovertemplate: `%{x}<br>%{y:.1f} fall<br>Horisont %{customdata}<extra>${label}</extra>`
+          hovertemplate: `%{x}<br>%{y:.1f} ${COPY.cases}<br>${COPY.horizon} %{customdata}<extra>${label}</extra>`
         });
       }
 
@@ -234,16 +275,16 @@ async function initializeForecastView() {
         y: outcomes.map(([, value]) => value),
         type: "scatter",
         mode: "lines+markers",
-        name: "Utfall",
+        name: COPY.outcome,
         line: { color: "#111827", width: 3 },
         marker: { color: "#111827", size: 5 },
-        hovertemplate: "%{x}<br>Utfall: %{y:.0f} fall<extra></extra>"
+        hovertemplate: `%{x}<br>${COPY.outcome}: %{y:.0f} ${COPY.cases}<extra></extra>`
       });
 
       const layout = {
-        title: { text: `${mode === "current" ? "Aktuella" : "Retrospektiva"} prognoser från ${displayDate(referenceDate)} – ${LOCATIONS[location]}`, x: 0.01, xanchor: "left" },
-        xaxis: { title: "Vecka", type: "date", hoverformat: "%Y-%m-%d" },
-        yaxis: { title: "Rapporterade influensafall", rangemode: "tozero" },
+        title: { text: `${mode === "current" ? COPY.current : COPY.retrospective} ${COPY.from} ${displayDate(referenceDate)} – ${LOCATIONS[location]}`, x: 0.01, xanchor: "left" },
+        xaxis: { title: COPY.xAxis, type: "date", hoverformat: "%Y-%m-%d" },
+        yaxis: { title: COPY.yAxis, rangemode: "tozero" },
         hovermode: "closest",
         legend: { orientation: "h", y: -0.24 },
         margin: { l: 70, r: 25, t: 90, b: 145 },
@@ -262,14 +303,14 @@ async function initializeForecastView() {
         ? Number(selectedQraRows[0].component_model_count)
         : 0;
       const qraText = selectedQra
-        ? (components ? ` QRA:n bygger på ${components} komponentmodell${components === 1 ? "" : "er"}.` : " Ingen QRA finns för denna omgång.")
-        : " QRA:n är dold.";
-      status.textContent = `${modelIds.length} modeller har lämnat prognoser denna säsong; ${availableModels.size} har prognos för valt datum och ${shownPointModels} visas.${qraText}`;
+        ? (components ? COPY.qraComponents(components) : COPY.noQra)
+        : COPY.qraHidden;
+      status.textContent = `${COPY.status(modelIds.length, availableModels.size, shownPointModels)}${qraText}`;
 
       const referenceIndex = referenceDates.indexOf(referenceDate);
       earlierButton.disabled = referenceIndex === referenceDates.length - 1;
       laterButton.disabled = referenceIndex === 0;
-      datePosition.textContent = `Prognosdatum ${referenceDates.length - referenceIndex} av ${referenceDates.length}`;
+      datePosition.textContent = COPY.datePosition(referenceDates.length - referenceIndex, referenceDates.length);
     }
 
     function moveReferenceDate(step) {
@@ -301,7 +342,7 @@ async function initializeForecastView() {
     laterButton.addEventListener("click", () => moveReferenceDate(-1));
     render();
   } catch (error) {
-    status.textContent = "Prognosdata kunde inte läsas in. Försök igen om en stund.";
+    status.textContent = COPY.loadError;
     console.error(error);
   }
 }

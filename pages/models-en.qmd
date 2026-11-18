@@ -1,0 +1,23 @@
+---
+title: "Models"
+---
+
+## Probabilistic models
+
+### hub-qra
+
+A regularised quantile regression averaging ensemble. It is estimated separately for each location, forecast horizon and quantile. Regularisation is selected using time-ordered expanding-window validation.
+
+### hub-normalma3
+
+A probabilistic baseline. Its mean is the average of the three most recent observations. Uncertainty is represented by a normal distribution whose standard deviation is estimated from historical rolling-origin errors, separately for each location and horizon.
+
+## Individual point models
+
+The retrospective view includes all models that submitted a complete forecast series for 2025/26: the hub's permanent test models and the participating teams' models. The current view presents models that have published forecasts for 2026/27.
+
+### gerlee-history
+
+An adaptive historical-season regression model. The expected number of cases in a given week is represented as a non-negative linear combination of the corresponding weeks in previous seasons. The weights are updated during the season using shared regularisation with $\lambda=1$.
+
+The models can be compared in the [retrospective view](retrospective-en.html) and the [current-season view](current-season-en.html). Complete metadata are available in the [model-metadata directory](https://github.com/philipgerlee/swedish_forecasting_hub/tree/main/model-metadata). The code for `gerlee-history` is available in its [model repository](https://github.com/philipgerlee/swedish-influenza-history-model).
